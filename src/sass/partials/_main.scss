@@ -1,0 +1,156 @@
+.main-content {
+  position: relative;
+  padding: 1em 0;
+  border: 1px solid $gold;
+  border-right: none;
+  border-left: none;
+}
+
+.content {
+  @extend %clearfix;
+
+  padding: 1em 0;
+  background: $cream;
+
+  @include mq($small-screen) {
+    border-radius: 10px;
+    border-top-left-radius: 0;
+  }
+}
+
+.booster-pack {
+  // display: none;
+
+  .card {
+    @extend .col;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+}
+
+.card {
+  margin: 0 auto;
+  padding: 0 4px 8px;
+  position: relative;
+  width: 243px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    max-width: 235px;
+    border-radius: 10px;    
+  }
+}
+
+.card--foil {
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 3%;
+    bottom: 5%;
+    width: 92%;
+    left: 50%;
+    margin-left: -107px;
+    max-width: 215px;
+    opacity: .3;
+    background: linear-gradient(55deg, red, orange, yellow, green, blue, indigo,
+      violet, red, orange, yellow, green, blue, indigo);
+  }
+}
+
+.branding {
+  display: none;
+}
+
+.odd + .branding {
+  @include mq($small-screen) {
+    display: block;
+  }
+
+  @include mq($small-mid-screen) {
+    display: none;
+  }
+
+  @include mq($med-screen) {
+    display: block;
+  }
+
+  @include mq($lrg-screen) {
+    display: none;    
+  }
+}
+
+.even + .branding {
+  @include mq($small-screen) {
+    display: none;
+  }
+
+  @include mq($small-mid-screen) {
+    display: block;
+  }
+
+  @include mq($med-screen) {
+    display: none;
+  }
+
+  @include mq($lrg-screen) {
+    display: block;    
+  }
+}
+
+.drafted-cards {
+  position: relative;
+}
+
+.drafted-info {
+  padding-left: 1em;
+  font-weight: 400;
+  color: $darkgreen;
+}
+
+@for $i from 2 through 45 {
+  .set li:nth-child(#{$i}) {
+    margin-top: -276px;
+
+    img {
+      border-top: 1px solid #555;
+    }
+  }
+}
+
+.set-list {
+  a {
+    padding-left: 38px;
+    display: inline-block;
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+  .theros {
+    background-image: url(../img/branding/theros.png);
+  }
+  .m14 {
+    background-image: url(../img/branding/m14.png);
+  }
+}
+
+.draft-progress {
+  @extend %clearfix;
+  list-style-type: disc;
+
+  li {
+    float: left;
+    padding: 0 .75em 0 0;
+    margin-left: 1em;
+
+    &:first-of-type {
+      margin-left: 0;
+      list-style-type: none;
+    }
+  }
+}

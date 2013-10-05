@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem;
+}
+
+p {
+  margin: 0 0 1em 0;
+  padding-left: .5em;
+}
+
+ul {
+  margin: 0 0 1em 0;
+  padding-left: 2.5em;
+
+  li {
+    margin-bottom: .5em;
+  }
+}
+
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

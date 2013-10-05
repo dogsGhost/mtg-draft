@@ -1,0 +1,36 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: $darkgreen;
+  color: $cream;
+  font: 300 14px/1.3 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-weight: normal;
+  text-decoration: none;
+  color: $beige;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+%clearfix {
+  @include clearfix();
+}
+
+.page-container {
+
+  @include mq($small-screen) {
+    padding: 0 1em;
+  }
+}
+
+.drafted-cards {
+  display: none;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mtg-draft",
+  "version": "0.0.1",
+  "authors": [
+    "David Wilhelm <davwilh@gmail.com>"
+  ],
+  "description": "simulates an eight-man draft for Magic: the gathering.",
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "backbone": "~1.0.0",
+    "underscore": "~1.5.2",
+    "jquery": "~2.0.3"
+  }
+}

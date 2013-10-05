@@ -1,0 +1,37 @@
+.timer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3.3em;
+  padding: 14px;
+  background: lighten($darkgreen, 12%);
+}
+
+.cell {
+  display: inline-block;
+  width: .7em;
+  height: 1.1em;
+  overflow: hidden;
+}
+
+.numbers {
+  display: inline-block;
+  width: 1.4em;
+  text-align: center;
+}
+
+
+/* SCROLLING CLOCK */
+
+#clock-wrap div {position: absolute; top:50px; left:130px; overflow: hidden; bottom:50px;}
+#clock-wrap ul {position:relative; -webkit-animation: clock-scroll 31s infinite linear; -moz-animation: clock-scroll 31s infinite linear; }
+
+@-webkit-keyframes clock-scroll {
+  0% {
+    top: 0;
+  }
+  
+  100% {
+    top: -9330px;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magic Draft</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="page-container">
+    <header class="page-header">
+      <h1><a href="/"><span>Magic</span> Draft Simulator</a></h1>
+    </header>
+    <div id="mainContent" class="main-content">
+      <p>Select which set you would like to draft with.</p>
+      <ul id="setList" class="set-list">
+        <li><a href="#/theros" class="theros">Theros</a></li>
+        <li><a href="#/m14" class="m14">Magic 2014</a></li>
+      </ul>
+      <p>Options:</p>
+      <p>Use timer when picking?
+        <label for="radio1">Yes </label><input name="timer" id="radio1" type="radio" checked>
+        <label for="radio2">No </label><input name="timer" id="radio2" type="radio">
+      </p>
+    </div>
+    <footer class="page-footer">
+      <small>Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. © 2013 <a href="http://company.wizards.com/">Wizards</a>. All Rights Reserved. This site is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC.</small>
+    </footer>
+  </div> <!-- end page-container -->
+
+  <script type="text/template" id="cardTemplate">
+    <img src="img/<%= img_src %>" alt="card name: <%= card_name %>, color: <%= color %>">
+  </script>
+
+  <script type="text/template" id="draftTemplate">
+    <ul class="draft-progress list-unstyled">
+      <li class="round">Round <%= round %></li>
+      <li class="pack">Pack <%= pack %></li>
+      <li class="pick">Pick <%= pick %></li>
+    </ul>
+
+    <div id="timer" class="timer">
+      Time: 0:
+      <span class="numbers">
+        <span class="cell tens">0 1 2 3 4</span>
+        <span class="cell single">0 1 2 3 4 5 6 7 8 9</span>
+      </span>
+    </div>
+
+    <ul id="collectionNav" class="nav list-unstyled">
+      <li class="active"><a href="#boosterPack">Booster Pack</a></li>
+      <li><a href="#draftedCards">Your Cards</a></li>
+    </ul>
+
+    <ul id="boosterPack" class="booster-pack list-unstyled content">
+    </ul>
+
+    <div id="draftedCards" class="drafted-cards content">
+      <p class="drafted-info">
+        <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> | 
+        <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
+      </p>
+      <div class="col set">
+        <ul class="list-unstyled">
+        </ul>
+      </div>
+    </div>
+  </script>
+  
+  <script src="js/vendor/jquery/jquery.js"></script>
+  <script src="js/vendor/underscore/underscore.js"></script>
+  <script src="js/vendor/backbone/backbone.js"></script>
+  <script src="js/draft.js"></script>
+  </body>
+</html>

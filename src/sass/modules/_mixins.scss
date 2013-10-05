@@ -1,0 +1,22 @@
+// Clearfix
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// media queries
+
+@mixin mq($minValue, $maxValue: 0) {
+  @if $maxValue != 0 {
+    @media (min-width: $minValue) and (max-width: $maxValue) { @content; }
+  } @else {
+    @media (min-width: $minValue) { @content; }
+  }
+}

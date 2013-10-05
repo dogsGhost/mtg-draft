@@ -1,0 +1,39 @@
+.nav {
+  @extend %clearfix;
+
+  li {
+    margin: 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+
+    @include mq($small-screen) {
+      width: auto;
+    }    
+  }
+
+  a {
+    display: block;
+    padding: 1em;
+    color: $cream;
+
+    @include mq($small-screen) {
+      margin: 0 .5em 0 0;
+      border-radius: 4px 4px 0 0;
+    }
+
+    &:hover {
+      background: lighten($darkgreen, 12%);
+      background: rgba($cream, .3);
+      text-decoration: none;
+    }
+  }
+}
+
+.active {
+  a, a:hover {
+    background: $cream;
+    color: $darkgreen;
+    cursor: default;
+  }
+}
