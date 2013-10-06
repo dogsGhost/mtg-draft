@@ -20,7 +20,7 @@ a {
   }
 }
 
-%clearfix {
+.clearfix, %clearfix {
   @include clearfix();
 }
 

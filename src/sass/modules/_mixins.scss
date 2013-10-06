@@ -1,5 +1,4 @@
 // Clearfix
-
 @mixin clearfix() {
   &:before,
   &:after {
@@ -12,11 +11,38 @@
 }
 
 // media queries
-
 @mixin mq($minValue, $maxValue: 0) {
   @if $maxValue != 0 {
     @media (min-width: $minValue) and (max-width: $maxValue) { @content; }
   } @else {
     @media (min-width: $minValue) { @content; }
+  }
+}
+
+// CSS3 Animation prefixes.
+@mixin animation($args...) {
+  -webkit-animation: $args;
+          animation: $args;
+}
+
+// Add translateZ to remove jank on css transforms.
+@mixin translate($axis: Z, $value: 0) {
+  -webkit-transform: translate#{$axis + '(' + $value + ')'};
+      -ms-transform: translate#{$axis + '(' + $value + ')'};
+          transform: translate#{$axis + '(' + $value + ')'};
+}
+
+// Project specific keyframe mixin to cover vendor prefixes.
+@mixin keyframe($name, $endValue) {
+  @-webkit-keyframes $name {
+    to {
+      @include translate(Y, $endValue);
+    }
+  }
+
+  @keyframes $name {
+    to {
+     @include translate(Y, $endValue);
+    }
   }
 }

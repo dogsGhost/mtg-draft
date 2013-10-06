@@ -1,37 +1,53 @@
+// The 45s timer counts down how much time the user has to pick a card.
 .timer {
   position: absolute;
   top: 0;
   right: 0;
-  height: 3.3em;
   padding: 14px;
+  line-height: 1;
   background: lighten($darkgreen, 12%);
 }
 
-.cell {
-  display: inline-block;
-  width: .7em;
-  height: 1.1em;
-  overflow: hidden;
+.timer__title {
+  vertical-align: top;
 }
 
+// .numbers holds the elements that will make our timer work.
 .numbers {
   display: inline-block;
-  width: 1.4em;
-  text-align: center;
+  margin-left: -.2em; // fix inline-block bug.
+  height: 1em;
+  overflow: hidden; // only see one number at a time.
+
+  /*
+  * Assign our animations.
+  * forwards ensures our animations stay at the endpoint when finished.
+  * moveEight is delayed 1s to account for the first frame needing to display
+  * one second longer than the animation allows.
+  * moveTen has a -4s delay which actually starts it 4s into the animation
+  * so it starts on the number 5.
+  */
+  .tenSecond {
+    @include animation(moveEight 40s 1s steps(8) forwards);
+  }
+
+  .second {
+    @include animation(moveTen 10s -4s steps(10) 5 forwards);
+  }
 }
 
-
-/* SCROLLING CLOCK */
-
-#clock-wrap div {position: absolute; top:50px; left:130px; overflow: hidden; bottom:50px;}
-#clock-wrap ul {position:relative; -webkit-animation: clock-scroll 31s infinite linear; -moz-animation: clock-scroll 31s infinite linear; }
-
-@-webkit-keyframes clock-scroll {
-  0% {
-    top: 0;
-  }
-  
-  100% {
-    top: -9330px;
-  }
+/*
+* Each .cell represents a different increment of time.
+* Since we're counting down from 45s we have one cell for the tens column
+* and one for the singles column.
+*/
+.cell {
+  float: left;
+  width: (9 / 14) + em; // forces numbers to stack vertically.
+  @include translate(Z); // helps remove jank from transforms.
 }
+
+// Our keyframe animations called using simple mixin.
+@include keyframe(moveEight, -8em);
+
+@include keyframe(moveTen, -10em);
