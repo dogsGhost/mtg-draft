@@ -47,7 +47,8 @@
 }
 
 .card--foil {
-  
+  cursor: pointer; // can't set cursor on pseudo element so have to set on parent.
+
   &:before {
     content: '';
     position: absolute;
@@ -58,50 +59,41 @@
     margin-left: -107px;
     max-width: 215px;
     opacity: .3;
-    cursor: pointer;
     background: linear-gradient(55deg, red, orange, yellow, green, blue, indigo,
       violet, red, orange, yellow, green, blue, indigo);
   }
 }
 
 .branding {
-  display: none;
-}
 
-.odd + .branding {
-  @include mq($small-screen) {
-    display: block;
-  }
-
-  @include mq($small-mid-screen) {
-    display: none;
-  }
-
-  @include mq($med-screen) {
-    display: block;
-  }
-
-  @include mq($lrg-screen) {
-    display: none;    
+  img {
+    cursor: default;  
   }
 }
 
-.even + .branding {
-  @include mq($small-screen) {
+// Hide/show branding based on # of columns cards are in and # of cards left.
+@include mq($small-screen, $small-mid-screen) {
+  li:nth-child(even) + .branding {
     display: none;
-  }
+  }  
+}
 
-  @include mq($small-mid-screen) {
-    display: block;
-  }
-
-  @include mq($med-screen) {
+@include mq($small-mid-screen, $med-screen) {
+  li:nth-child(3n) + .branding {
     display: none;
-  }
+  }  
+}
 
-  @include mq($lrg-screen) {
-    display: block;    
-  }
+@include mq($med-screen, $lrg-screen) {
+  li:nth-child(4n) + .branding {
+    display: none;
+  }  
+}
+
+@include mq($lrg-screen) {
+  li:nth-child(5n) + .branding {
+    display: none;
+  }  
 }
 
 .drafted-cards {
@@ -114,15 +106,23 @@
   color: $darkgreen;
 }
 
-@for $i from 2 through 45 {
-  .set li:nth-child(#{$i}) {
-    margin-top: -276px;
+.set li {
+  margin-top: -276px;
 
-    img {
-      border-top: 1px solid #555;
+  &:first-child {
+    margin-top: 0;
+  }
+
+  img {
+    position: relative;
+    border-top: 1px solid #555;
+
+    &:hover {
+      z-index: 100;
     }
   }
 }
+
 
 .set-list {
   a {
