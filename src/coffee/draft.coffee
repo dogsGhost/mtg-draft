@@ -12,7 +12,7 @@ draft =
     # This stores 3 arrays, 1 for each round, those arrays contain the Collections.
     draft.packs = []
     draft.setStats()
-    draft.use_timer = false #!!parseInt($('#timerOption').find('input:checked').val(), 10) or true
+    draft.use_timer = !!parseInt $('#timerOption').find('input:checked').val(), 10
 
     # There are 3 round in the draft, each using 8 packs.
     i  = 3
