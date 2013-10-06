@@ -66,35 +66,25 @@ magic.pickFoil = ->
   # Pick a number 1 to 100.
   ran = @getRandomInt 1, 100
 
-  ###
-  ISSUE: if statements might work better as a switch statement.
-  ###
-  # Default foil to land, override based on random number.
-  rarity = 'land'
-  # common
-  if ran >= 1 and ran <= 66
-    rarity = 'common'
-  # uncommon
-  if ran > 66 and ran <= 86
-    rarity = 'uncommon'
-  # rare
-  if ran > 86 and ran <= 92
-    rarity = 'rare'
-  # mythic
-  if ran is 93
-    rarity = 'mythic'
+  # Determine rarity of foil.
+  switch ran
+    # common
+    when ran >= 1 and ran <= 66 then rarity = 'common'
+    # uncommon
+    when ran > 66 and ran <= 86 then rarity = 'uncommon'
+    # rare
+    when ran > 86 and ran <= 92 then rarity = 'rare'
+    # mythic
+    when ran is 93 then rarity = 'mythic'
+    #default to land
+    else rarity = 'land'
 
   # Determine index of card.
   ran = @getRandomInt 0, draft.cardSet[rarity].length - 1
 
-  ###
-  ISSUE: Rewrite to use jQuery $.extend()
-  ###
   # Create new instance of card object rather than reference it.
   # Otherwise that object would have the foil property misset.
-  Card = ->
-  Card:: = draft.cardSet[rarity][ran]
-  card = new Card()
+  card = $.extend {}, draft.cardSet[rarity][ran]
   
   # Set foil property to distinguish it as foil.
   card.is_foil = true
