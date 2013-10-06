@@ -5,16 +5,37 @@
     # Use container already in html.
     el: '#mainContent'
 
-    # Template of all the elements of a draft view.
+    # Main template of a draft view.
     template: _.template $('#draftTemplate').html()
+
+    # Template to show round/pack/pick of draft user is currently on.
+    progressTemplate: _.template $('#draftProgressTemplate').html()
+
+    # Timer for each pick.
+    timerTemplate: _.template $('#timerTemplate').html()
+
+    # Template to show total cards / # creatures in user's drafted pool.
+    infoTemplate: _.template $('#draftedInfoTemplate').html()
 
     # Delegated events.
     events:
       'click #collectionNav a': 'toggleContent'
+      ###
+      ISSUE: Look into refactoring with Modernizr to cover prefixes.
+      ###
+      'webkitAnimationEnd #timer .second': 'timeUp'
+      'animationend #timer .second': 'timeUp'
+
+    firstRender: true
 
     initialize: ->
-      @listenTo draft.draftedCards, 'add', @renderDraftedCard
+      @listenTo draft.draftedCards, 'add', @renderNext
       @render()
+
+    timeUp: (e) ->
+      # If the timer runs out, add the first card in the pack to draftedCards.
+      card = draft.packs[draft.round - 1][draft.pack - 1].models[0]
+      draft.draftedCards.add card
 
     toggleContent: (e) ->
       e.preventDefault()
@@ -37,21 +58,49 @@
       $( $tar.attr('href') ).show()
     
     render: ->
-      content = 
+      # Insert html on page.
+      @$el.html @template()
+
+      # Set varaibles.
+      @$bp = @$ '#boosterPack'
+      @$dp = @$ '#draftProgress'
+      @$di = @$ '#draftedInfo'
+      @$dcl = @$('#draftedCards').find '.drafted-cards__list'
+      @$timer = @$ '#timer'
+
+      # Insert html nested inside this view.
+      @renderChildViews()
+
+      # Set firstRender to false for use when refreshing data.
+      @firstRender = false
+
+    renderChildViews: ->
+      # Insert draft metadata onto page. 
+      @renderStats()
+
+      # Insert cards into html we just rendered.
+      @renderPack()
+
+      # Render new timer only if first time rendering or if we're using a timer.
+      if @firstRender or (!@firstRender and draft.use_timer)
+        @$timer.html @timerTemplate use_timer: draft.use_timer
+
+      # Add mtg branding to help fill negative space as the number of cards on the page decreases.
+      @$('#boosterPack').append '<li class="card branding"><img src="img/branding/pwsymbol.png" alt=""></li>'
+
+    renderStats: ->
+      progress = 
         round: draft.round
         pack: draft.pack
         pick: draft.pick
-        use_timer: draft.use_timer
+
+      info =
         drafted_total: draft.draftedCards.length
         creature_count: draft.draftedCards.where(is_creature: true).length
 
-      # Insert html on page.
-      @$el.html @template content
+      @$('#draftProgress').html @progressTemplate progress
 
-      # Insert cards into html we just added.
-      @renderPack()
-      @renderDrafted()
-      @$('#boosterPack').append '<li class="card branding"><img src="img/branding/pwsymbol.png" alt=""></li>'
+      @$('#draftedInfo').html @infoTemplate info
 
     renderPack: ->
       @$('#boosterPack').empty()
@@ -62,12 +111,11 @@
       cardView = new draft.CardView model: card
       $('#boosterPack').append cardView.render().el
 
-    renderDrafted: ->
-      pack = draft.draftedCards
-      _.each pack.models, @renderDraftedCard
-
-    renderDraftedCard: (card, index, list) ->
+    renderNext: (card, index, list) ->
+      # Update draft data and render next booster pack.
+      @renderChildViews()
+      # Render new drafted card.
       cardView = new draft.CardView model: card
-      $('#draftedCards .drafted-cards__list').append cardView.render().el
+      @$dcl.append cardView.render().el
 
 ) jQuery

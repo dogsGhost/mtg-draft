@@ -36,22 +36,10 @@
   </script>
 
   <script type="text/template" id="draftTemplate">
-    <ul class="draft-progress list-unstyled">
-      <li class="round">Round <%= round %></li>
-      <li class="pack">Pack <%= pack %></li>
-      <li class="pick">Pick <%= pick %></li>
+    <ul id="draftProgress" class="draft-progress list-unstyled">
     </ul>
 
     <div id="timer" class="timer">
-      <% if (use_timer === true) { %>
-      <span class="timer__title">Time: 0:</span>
-      <div class="numbers">
-        <div class="cell tenSecond">4 3 3 2 2 1 1 0 0</div>
-        <div class="cell second">9 8 7 6 5 4 3 2 1 0 0</div>
-      </div>
-      <% } else { %>
-      <span class="timer__title">Time: Unlimited</span>
-      <% } %>
     </div>
 
     <ul id="collectionNav" class="nav list-unstyled">
@@ -63,9 +51,7 @@
     </ul>
 
     <div id="draftedCards" class="drafted-cards content">
-      <p class="drafted-info">
-        <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> | 
-        <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
+      <p id="draftedInfo" class="drafted-info">
       </p>
       <div class="col set">
         <ul class="list-unstyled drafted-cards__list">
@@ -73,6 +59,29 @@
       </div>
     </div>
   </script>
+
+  <script type="text/template" id="draftProgressTemplate">
+    <li class="round">Round <%= round %></li>
+    <li class="pack">Pack <%= pack %></li>
+    <li class="pick">Pick <%= pick %></li>
+  </script>
+
+  <script type="text/template" id="timerTemplate">
+    <% if (use_timer === true) { %>
+    <span class="timer__title">Time: 0:</span>
+    <div class="numbers">
+      <div class="cell tenSecond">4 3 3 2 2 1 1 0 0</div>
+      <div class="cell second">9 8 7 6 5 4 3 2 1 0 0</div>
+    </div>
+    <% } else { %>
+    <span class="timer__title">Time: Unlimited</span>
+    <% } %>
+  </script>
+
+  <script type="text/template" id="draftedInfoTemplate">
+    <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> | 
+    <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
+  </script>  
   
   <script src="js/vendor/jquery/jquery.js"></script>
   <script src="js/vendor/underscore/underscore.js"></script>
