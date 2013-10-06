@@ -5,6 +5,10 @@
     # Use container already in html.
     el: '#mainContent'
 
+    initialize: ->
+      @listenTo draft.draftedCards, 'add', @renderNext
+      @render()
+
     # Main template of a draft view.
     template: _.template $('#draftTemplate').html()
 
@@ -23,18 +27,27 @@
       ###
       ISSUE: Look into refactoring with Modernizr to cover prefixes.
       ###
-      'webkitAnimationEnd #timer .second': 'timeUp'
-      'animationend #timer .second': 'timeUp'
+      'webkitAnimationEnd #timer .second': 'timerEnd'
+      'animationend #timer .second': 'timerEnd'
 
     firstRender: true
 
-    initialize: ->
-      @listenTo draft.draftedCards, 'add', @renderNext
-      @render()
+    timerEnd: (e) ->
+      # If the timer runs out, we choose the first card in the pack for the user.
+      pack = draft.packs[draft.round - 1][draft.pack - 1]
+      card = pack.models[0]
 
-    timeUp: (e) ->
-      # If the timer runs out, add the first card in the pack to draftedCards.
-      card = draft.packs[draft.round - 1][draft.pack - 1].models[0]
+      # Remove a card from each other booster in the round to simulate other drafters.
+      draft.pickFromOtherPacks()
+
+      # Remove the card we're adding from its pack.
+      pack.remove pack.get card.get card
+
+      # Increment pack number.
+      draft.pickMade()
+
+      # If the timer runs out, add the first card in the pack to draftedCards.      
+      # This triggers renderNext, showing the next pack.
       draft.draftedCards.add card
 
     toggleContent: (e) ->
@@ -111,7 +124,7 @@
       cardView = new draft.CardView model: card
       $('#boosterPack').append cardView.render().el
 
-    renderNext: (card, index, list) ->
+    renderNext: (card) ->
       # Update draft data and render next booster pack.
       @renderChildViews()
       # Render new drafted card.

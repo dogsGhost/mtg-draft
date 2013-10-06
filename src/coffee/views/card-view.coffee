@@ -14,11 +14,11 @@
       # Remove a card from each other booster in the round to simulate other drafters.
       draft.pickFromOtherPacks()
 
-      # Increment pack number.
-      draft.pickMade()
-
       # Remove @model
       draft.packs[draft.round - 1][draft.pack - 1].remove @model
+
+      # Increment pack number.
+      draft.pickMade()
       
       # Store the selected card.
       draft.draftedCards.add @model
