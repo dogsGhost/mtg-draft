@@ -67,27 +67,27 @@ draft =
           # In case there's more than one in the pack, randomly pick one then remove it.
           if m.length
             ran = magic.getRandomInt 0, m.length - 1
-            pack.remove pack.get(m[ran].id)
+            pack.remove pack.get m[ran]
           else
             ran = magic.getRandomInt 0, r.length - 1
-            pack.remove pack.get(r[ran].id)
+            pack.remove pack.get r[ran]
         
         # If not picking rare, move on to uncommons.
         # 50% chance to pick uncommon if there are any or if its late in the round force pick.
         else if (ran < 51 and u.length) or (draft.pick > 8 and u.length)
           ran = magic.getRandomInt 1, 100
           ran = magic.getRandomInt 0, u.length - 1
-          pack.remove pack.get(u[ran].id)
+          pack.remove pack.get u[ran]
 
         # If not picking uncommon, move on the commons.
         else if c.length
           ran = magic.getRandomInt 0, c.length - 1
-          pack.remove pack.get(c[ran].id)
+          pack.remove pack.get c[ran]
         
         # If nothing else, pick a land.
         else if l.length
           ran = magic.getRandomInt 0, l.length - 1
-          pack.remove pack.get(l[ran].id)
+          pack.remove pack.get l[ran]
         
         # Do something when there are no more cards to pick.
     return 
