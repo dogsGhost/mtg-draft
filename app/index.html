@@ -18,11 +18,13 @@
         <li><a href="#/theros" class="theros">Theros</a></li>
         <li><a href="#/m14" class="m14">Magic 2014</a></li>
       </ul>
-      <p>Options:</p>
-      <p>Use timer when picking?
-        <label for="radio1">Yes </label><input name="timer" id="radio1" type="radio" checked>
-        <label for="radio2">No </label><input name="timer" id="radio2" type="radio">
-      </p>
+      <div id="options">
+        <h3>Options:</h3>
+        <div id="timerOption">Use timer when picking?
+          <label for="radio1">Yes </label><input value="1" name="timer" id="radio1" type="radio" checked>
+          <label for="radio2">No </label><input value="0" name="timer" id="radio2" type="radio">
+        </div>
+      </div>
     </div>
     <footer class="page-footer">
       <small>Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. © 2013 <a href="http://company.wizards.com/">Wizards</a>. All Rights Reserved. This site is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC.</small>
@@ -41,11 +43,15 @@
     </ul>
 
     <div id="timer" class="timer">
+      <% if (use_timer === true) { %>
       <span class="timer__title">Time: 0:</span>
       <div class="numbers">
         <div class="cell tenSecond">4 3 3 2 2 1 1 0 0</div>
         <div class="cell second">9 8 7 6 5 4 3 2 1 0 0</div>
       </div>
+      <% } else { %>
+      <span class="timer__title">Time: Unlimited</span>
+      <% } %>
     </div>
 
     <ul id="collectionNav" class="nav list-unstyled">
@@ -62,7 +68,7 @@
         <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
       </p>
       <div class="col set">
-        <ul class="list-unstyled">
+        <ul class="list-unstyled drafted-cards__list">
         </ul>
       </div>
     </div>

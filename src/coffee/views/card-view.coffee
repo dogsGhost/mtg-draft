@@ -6,20 +6,23 @@
 
     events:
       # When a user selects a card.
-      'click img': 'storeCard'
+      'click img': 'addDraftedCard'
 
-    storeCard: ->
+    addDraftedCard: ->
       # Store the selected card.
       draft.draftedCards.add @model
       
       # Remove @model
+      draft.packs[draft.round - 1][draft.pack - 1].remove @model
 
       # Remove a card from each other booster in the round to simulate other drafters.
+      draft.pickFromOtherPacks()
 
       # Increment pack number.
       draft.pickMade()
+      
       # render next pack.
-      draft.outputList()
+      new draft.DraftView()
 
     className: ->
       string = 'card'
@@ -32,6 +35,7 @@
     template: _.template $('#cardTemplate').html()
 
     render: ->
+      if @$el.hasClass('card--foil') then @delegateEvents 'click': 'addDraftedCard'
       m = @model.toJSON()
       m.img_src = draft.setName + '/' + m.img_src
       @$el.html @template m
