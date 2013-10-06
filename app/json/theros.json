@@ -1,0 +1,2253 @@
+{
+  "mythic":[
+    {
+      "id":9,
+      "card_name":"Elspeth, Sun's Champion",
+      "rarity":"M",
+      "color":"white",
+      "img_src":"elspethsunschampion.jpg",
+      "converted_mana_cost":6,
+      "is_creature":false
+    },
+    {
+      "id":17,
+      "card_name":"Heliod, God of the Sun",
+      "rarity":"M",
+      "color":"white",
+      "img_src":"heliodgodofthesun.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":53,
+      "card_name":"Master of Waves",
+      "rarity":"M",
+      "color":"blue",
+      "img_src":"masterofwaves.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":66,
+      "card_name":"Thassa, God of the Sea",
+      "rarity":"M",
+      "color":"blue",
+      "img_src":"thassagodofthesea.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":85,
+      "card_name":"Erebos, God of the Dead",
+      "rarity":"M",
+      "color":"black",
+      "img_src":"erebosgodofthedead.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":91,
+      "card_name":"Hythonia the Cruel",
+      "rarity":"M",
+      "color":"black",
+      "img_src":"hythoniathecruel.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":135,
+      "card_name":"Purphoros, God of the Forge",
+      "rarity":"M",
+      "color":"red",
+      "img_src":"purphorosgodoftheforge.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":143,
+      "card_name":"Stormbreath Dragon",
+      "rarity":"M",
+      "color":"red",
+      "img_src":"stormbreathdragon.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":166,
+      "card_name":"Nylea, God of the Hunt",
+      "rarity":"M",
+      "color":"green",
+      "img_src":"nyleagodofthehunt.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":172,
+      "card_name":"Polukranos, World Eater",
+      "rarity":"M",
+      "color":"green",
+      "img_src":"polukranosworldeater.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":187,
+      "card_name":"Ashen Rider",
+      "rarity":"M",
+      "color":"gold",
+      "img_src":"ashenrider.jpg",
+      "converted_mana_cost":8,
+      "is_creature":true
+    },
+    {
+      "id":188,
+      "card_name":"Ashiok, Nightmare Weaver",
+      "rarity":"M",
+      "color":"gold",
+      "img_src":"ashioknightmareweaver.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":196,
+      "card_name":"Medomai the Ageless",
+      "rarity":"M",
+      "color":"gold",
+      "img_src":"medomaitheageless.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":208,
+      "card_name":"Underworld Cerberus",
+      "rarity":"M",
+      "color":"gold",
+      "img_src":"underworldcerberus.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":209,
+      "card_name":"Xenagos, the Reveler",
+      "rarity":"M",
+      "color":"gold",
+      "img_src":"xenagosthereveler.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    }
+  ],
+  "rare":[
+    {
+      "id":3,
+      "card_name":"Celestial Archon",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"celestialarchon.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":4,
+      "card_name":"Chained to the Rocks",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"chainedtotherocks.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":12,
+      "card_name":"Fabled Hero",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"fabledhero.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":14,
+      "card_name":"Gift of Immortality",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"giftofimmortality.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":20,
+      "card_name":"Hundred-Handed One",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"hundredhandedone.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":32,
+      "card_name":"Soldier of the Pantheon",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"soldierofthepantheon.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":33,
+      "card_name":"Spear of Heliod",
+      "rarity":"R",
+      "color":"white",
+      "img_src":"spearofheliod.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":40,
+      "card_name":"Artisan of Forms",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"artisanofforms.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":42,
+      "card_name":"Bident of Thassa",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"bidentofthassa.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":46,
+      "card_name":"Curse of the Swine",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"curseoftheswine.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":54,
+      "card_name":"Meletis Charlatan",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"meletischarlatan.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":60,
+      "card_name":"Prognostic Sphinx",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"prognosticsphinx.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":63,
+      "card_name":"Shipbreaker Kraken",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"shipbreakerkraken.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":65,
+      "card_name":"Swan Song",
+      "rarity":"R",
+      "color":"blue",
+      "img_src":"swansong.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":75,
+      "card_name":"Abhorrent Overlord",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"abhorrentoverlord.jpg",
+      "converted_mana_cost":7,
+      "is_creature":true
+    },
+    {
+      "id":76,
+      "card_name":"Agent of the Fates",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"agentofthefates.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":90,
+      "card_name":"Hero's Downfall",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"herosdownfall.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":98,
+      "card_name":"Nighthowler",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"nighthowler.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":107,
+      "card_name":"Thoughtseize",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"thoughtseize.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":110,
+      "card_name":"Whip of Erebos",
+      "rarity":"R",
+      "color":"black",
+      "img_src":"whipoferebos.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":112,
+      "card_name":"Anger of the Gods",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"angerofthegods.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":120,
+      "card_name":"Ember Swallower",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"emberswallower.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":122,
+      "card_name":"Firedrinker Satyr",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"firedrinkersatyr.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":124,
+      "card_name":"Hammer of Purphoros",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"hammerofpurphoros.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":126,
+      "card_name":"Labyrinth Champion",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"labyrinthchampion.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":138,
+      "card_name":"Rageblood Shaman",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"ragebloodshaman.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":144,
+      "card_name":"Titan of Eternal Fire",
+      "rarity":"R",
+      "color":"red",
+      "img_src":"titanofeternalfire.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":149,
+      "card_name":"Anthousa, Setessan Hero",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"anthousasetessanhero.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":150,
+      "card_name":"Arbor Colossus",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"arborcolossus.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":152,
+      "card_name":"Boon Satyr",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"boonsatyr.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":153,
+      "card_name":"Bow of Nylea",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"bowofnylea.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":162,
+      "card_name":"Mistcutter Hydra",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"mistcutterhydra.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":173,
+      "card_name":"Reverent Hunter",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"reverenthunter.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":180,
+      "card_name":"Sylvan Caryatid",
+      "rarity":"R",
+      "color":"green",
+      "img_src":"sylvancaryatid.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":186,
+      "card_name":"Anax and Cymede",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"anaxandcymede.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":191,
+      "card_name":"Daxos of Meletis",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"daxosofmeletis.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":193,
+      "card_name":"Fleecemane Lion",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"fleecemanelion.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":198,
+      "card_name":"Polis Crusher",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"poliscrusher.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":199,
+      "card_name":"Prophet of Kruphix",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"prophetofkruphix.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":200,
+      "card_name":"Psychic Intrusion",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"psychicintrusion.jpg",
+      "converted_mana_cost":5,
+      "is_creature":false
+    },
+    {
+      "id":201,
+      "card_name":"Reaper of the Wilds",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"reaperofthewilds.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":205,
+      "card_name":"Steam Augury",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"steamaugury.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":206,
+      "card_name":"Triad of Fates",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"triadoffates.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":207,
+      "card_name":"Tymaret, the Murder King",
+      "rarity":"R",
+      "color":"gold",
+      "img_src":"tymaretthemurderking.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":210,
+      "card_name":"Akroan Horse",
+      "rarity":"R",
+      "color":"artifact",
+      "img_src":"akroanhorse.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":214,
+      "card_name":"Colossus of Akros",
+      "rarity":"R",
+      "color":"artifact",
+      "img_src":"colossusofakros.jpg",
+      "converted_mana_cost":8,
+      "is_creature":true
+    },
+    {
+      "id":220,
+      "card_name":"Pyxis of Pandemonium",
+      "rarity":"R",
+      "color":"artifact",
+      "img_src":"pyxisofpandemonium.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":223,
+      "card_name":"Nykthos, Shrine to Nyx",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"nykthosshrinetonyx.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":224,
+      "card_name":"Temple of Abandon",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"templeofabandon.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":225,
+      "card_name":"Temple of Deceit",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"templeofdeceit.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":226,
+      "card_name":"Temple of Mystery",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"templeofmystery.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":227,
+      "card_name":"Temple of Silence",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"templeofsilence.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":228,
+      "card_name":"Temple of Triumph",
+      "rarity":"R",
+      "color":"land",
+      "img_src":"templeoftriumph.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    }
+  ],
+  "uncommon":[
+    {
+      "id":6,
+      "card_name":"Dauntless Onslaught",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"dauntlessonslaught.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":7,
+      "card_name":"Decorated Griffin",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"decoratedgriffin.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":11,
+      "card_name":"Evangel of Heliod",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"evangelofheliod.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":13,
+      "card_name":"Favored Hoplite",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"favoredhoplite.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":15,
+      "card_name":"Glare of Heresy",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"glareofheresy.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":18,
+      "card_name":"Heliod's Emissary",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"heliodsemissary.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":25,
+      "card_name":"Ordeal of Heliod",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"ordealofheliod.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":26,
+      "card_name":"Phalanx Leader",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"phalanxleader.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":35,
+      "card_name":"Vanquish the Foul",
+      "rarity":"U",
+      "color":"white",
+      "img_src":"vanquishthefoul.jpg",
+      "converted_mana_cost":6,
+      "is_creature":false
+    },
+    {
+      "id":47,
+      "card_name":"Dissolve",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"dissolve.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":49,
+      "card_name":"Gainsay",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"gainsay.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":51,
+      "card_name":"Horizon Scholar",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"horizonscholar.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":58,
+      "card_name":"Ordeal of Thassa",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"ordealofthassa.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":61,
+      "card_name":"Sea God's Revenge",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"seagodsrevenge.jpg",
+      "converted_mana_cost":6,
+      "is_creature":false
+    },
+    {
+      "id":62,
+      "card_name":"Sealock Monster",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"sealockmonster.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":68,
+      "card_name":"Thassa's Emissary",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"thassasemissary.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":69,
+      "card_name":"Triton Fortune Hunter",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"tritonfortunehunter.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":71,
+      "card_name":"Triton Tactics",
+      "rarity":"U",
+      "color":"blue",
+      "img_src":"tritontactics.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":82,
+      "card_name":"Cutthroat Maneuver",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"cutthroatmaneuver.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":83,
+      "card_name":"Dark Betrayal",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"darkbetrayal.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":86,
+      "card_name":"Erebos's Emissary",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"erebossemissary.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":92,
+      "card_name":"Insatiable Harpy",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"insatiableharpy.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":93,
+      "card_name":"Keepsake Gorgon",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"keepsakegorgon.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":97,
+      "card_name":"Mogis's Marauder",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"mogissmarauder.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":99,
+      "card_name":"Ordeal of Erebos",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"ordealoferebos.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":102,
+      "card_name":"Rescue from the Underworld",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"rescuefromtheunderworld.jpg",
+      "converted_mana_cost":5,
+      "is_creature":false
+    },
+    {
+      "id":108,
+      "card_name":"Tormented Hero",
+      "rarity":"U",
+      "color":"black",
+      "img_src":"tormentedhero.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":113,
+      "card_name":"Arena Athlete",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"arenaathlete.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":116,
+      "card_name":"Coordinated Assault",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"coordinatedassault.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":121,
+      "card_name":"Fanatic of Mogis",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"fanaticofmogis.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":123,
+      "card_name":"Flamespeaker Adept",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"flamespeakeradept.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":128,
+      "card_name":"Magma Jet",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"magmajet.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":131,
+      "card_name":"Ordeal of Purphoros",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"ordealofpurphoros.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":132,
+      "card_name":"Peak Eruption",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"peakeruption.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":136,
+      "card_name":"Purphoros's Emissary",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"purphorossemissary.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":142,
+      "card_name":"Stoneshock Giant",
+      "rarity":"U",
+      "color":"red",
+      "img_src":"stoneshockgiant.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":151,
+      "card_name":"Artisan's Sorrow",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"artisanssorrow.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":154,
+      "card_name":"Centaur Battlemaster",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"centaurbattlemaster.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":159,
+      "card_name":"Hunt the Hunter",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"huntthehunter.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":160,
+      "card_name":"Karametra's Acolyte",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"karametrasacolyte.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":163,
+      "card_name":"Nemesis of Mortals",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"nemesisofmortals.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":168,
+      "card_name":"Nylea's Emissary",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"nyleasemissary.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":170,
+      "card_name":"Ordeal of Nylea",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"ordealofnylea.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":175,
+      "card_name":"Satyr Piper",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"satyrpiper.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":184,
+      "card_name":"Warriors' Lesson",
+      "rarity":"U",
+      "color":"green",
+      "img_src":"warriorslesson.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":185,
+      "card_name":"Akroan Hoplite",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"akroanhoplite.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":189,
+      "card_name":"Battlewise Hoplite",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"battlewisehoplite.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":190,
+      "card_name":"Chronicler of Heroes",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"chroniclerofheroes.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":192,
+      "card_name":"Destructive Revelry",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"destructiverevelry.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":194,
+      "card_name":"Horizon Chimera",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"horizonchimera.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":195,
+      "card_name":"Kragma Warcaller",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"kragmawarcaller.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":197,
+      "card_name":"Pharika's Mender",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"pharikasmender.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":202,
+      "card_name":"Sentry of the Underworld",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"sentryoftheunderworld.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":203,
+      "card_name":"Shipwreck Singer",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"shipwrecksinger.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":204,
+      "card_name":"Spellheart Chimera",
+      "rarity":"U",
+      "color":"gold",
+      "img_src":"spellheartchimera.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":211,
+      "card_name":"Anvilwrought Raptor",
+      "rarity":"U",
+      "color":"artifact",
+      "img_src":"anvilwroughtraptor.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":213,
+      "card_name":"Burnished Hart",
+      "rarity":"U",
+      "color":"artifact",
+      "img_src":"burnishedhart.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":215,
+      "card_name":"Flamecast Wheel",
+      "rarity":"U",
+      "color":"artifact",
+      "img_src":"flamecastwheel.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":219,
+      "card_name":"Prowler's Helm",
+      "rarity":"U",
+      "color":"artifact",
+      "img_src":"prowlershelm.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":222,
+      "card_name":"Witches' Eye",
+      "rarity":"U",
+      "color":"artifact",
+      "img_src":"witcheseye.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    }
+  ],
+  "common":[
+    {
+      "id":1,
+      "card_name":"Battlewise Valor",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"battlewisevalor.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":2,
+      "card_name":"Cavalry Pegasus",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"cavalrypegasus.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":5,
+      "card_name":"Chosen by Heliod",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"chosenbyheliod.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":8,
+      "card_name":"Divine Verdict",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"divineverdict.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":10,
+      "card_name":"Ephara's Warden",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"epharaswarden.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":16,
+      "card_name":"Gods Willing",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"godswilling.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":19,
+      "card_name":"Hopeful Eidolon",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"hopefuleidolon.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":21,
+      "card_name":"Lagonna-Band Elder",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"lagonnabandelder.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":22,
+      "card_name":"Last Breath",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"lastbreath.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":23,
+      "card_name":"Leonin Snarecaster",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"leoninsnarecaster.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":24,
+      "card_name":"Observant Alseid",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"observantalseid.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":27,
+      "card_name":"Ray of Dissolution",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"rayofdissolution.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":28,
+      "card_name":"Scholar of Athreos",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"scholarofathreos.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":29,
+      "card_name":"Setessan Battle Priest",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"setessanbattlepriest.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":30,
+      "card_name":"Setessan Griffin",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"setessangriffin.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":31,
+      "card_name":"Silent Artisan",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"silentartisan.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":34,
+      "card_name":"Traveling Philosopher",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"travelingphilosopher.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":36,
+      "card_name":"Wingsteed Rider",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"wingsteedrider.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":37,
+      "card_name":"Yoked Ox",
+      "rarity":"C",
+      "color":"white",
+      "img_src":"yokedox.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":38,
+      "card_name":"Annul",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"annul.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":39,
+      "card_name":"Aqueous Form",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"aqueousform.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":41,
+      "card_name":"Benthic Giant",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"benthicgiant.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":43,
+      "card_name":"Breaching Hippocamp",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"breachinghippocamp.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":44,
+      "card_name":"Coastline Chimera",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"coastlinechimera.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":45,
+      "card_name":"Crackling Triton",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"cracklingtriton.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":48,
+      "card_name":"Fate Foretold",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"fateforetold.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":50,
+      "card_name":"Griptide",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"griptide.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":52,
+      "card_name":"Lost in a Labyrinth",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"lostinalabyrinth.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":55,
+      "card_name":"Mnemonic Wall",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"mnemonicwall.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":56,
+      "card_name":"Nimbus Naiad",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"nimbusnaiad.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":57,
+      "card_name":"Omenspeaker",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"omenspeaker.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":59,
+      "card_name":"Prescient Chimera",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"prescientchimera.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":64,
+      "card_name":"Stymied Hopes",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"stymiedhopes.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":67,
+      "card_name":"Thassa's Bounty",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"thassasbounty.jpg",
+      "converted_mana_cost":6,
+      "is_creature":false
+    },
+    {
+      "id":70,
+      "card_name":"Triton Shorethief",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"tritonshorethief.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":72,
+      "card_name":"Vaporkin",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"vaporkin.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":73,
+      "card_name":"Voyage's End",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"voyagesend.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":74,
+      "card_name":"Wavecrash Triton",
+      "rarity":"C",
+      "color":"blue",
+      "img_src":"wavecrashtriton.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":77,
+      "card_name":"Asphodel Wanderer",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"asphodelwanderer.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":78,
+      "card_name":"Baleful Eidolon",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"balefuleidolon.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":79,
+      "card_name":"Blood-Toll Harpy",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"bloodtollharpy.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":80,
+      "card_name":"Boon of Erebos",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"boonoferebos.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":81,
+      "card_name":"Cavern Lampad",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"cavernlampad.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":84,
+      "card_name":"Disciple of Phenax",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"discipleofphenax.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":87,
+      "card_name":"Felhide Minotaur",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"felhideminotaur.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":88,
+      "card_name":"Fleshmad Steed",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"fleshmadsteed.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":89,
+      "card_name":"Gray Merchant of Asphodel",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"graymerchantofasphodel.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":94,
+      "card_name":"Lash of the Whip",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"lashofthewhip.jpg",
+      "converted_mana_cost":5,
+      "is_creature":false
+    },
+    {
+      "id":95,
+      "card_name":"Loathsome Catoblepas",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"loathsomecatoblepas.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":96,
+      "card_name":"March of the Returned",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"marchofthereturned.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":100,
+      "card_name":"Pharika's Cure",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"pharikascure.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":101,
+      "card_name":"Read the Bones",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"readthebones.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":103,
+      "card_name":"Returned Centaur",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"returnedcentaur.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":104,
+      "card_name":"Returned Phalanx",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"returnedphalanx.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":105,
+      "card_name":"Scourgemark",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"scourgemark.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":106,
+      "card_name":"Sip of Hemlock",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"sipofhemlock.jpg",
+      "converted_mana_cost":6,
+      "is_creature":false
+    },
+    {
+      "id":109,
+      "card_name":"Viper's Kiss",
+      "rarity":"C",
+      "color":"black",
+      "img_src":"viperskiss.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":111,
+      "card_name":"Akroan Crusader",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"akroancrusader.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":114,
+      "card_name":"Borderland Minotaur",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"borderlandminotaur.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":115,
+      "card_name":"Boulderfall",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"boulderfall.jpg",
+      "converted_mana_cost":8,
+      "is_creature":false
+    },
+    {
+      "id":117,
+      "card_name":"Deathbellow Raider",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"deathbellowraider.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":118,
+      "card_name":"Demolish",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"demolish.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":119,
+      "card_name":"Dragon Mantle",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"dragonmantle.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":125,
+      "card_name":"Ill-Tempered Cyclops",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"illtemperedcyclops.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":127,
+      "card_name":"Lightning Strike",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"lightningstrike.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":129,
+      "card_name":"Messenger's Speed",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"messengersspeed.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":130,
+      "card_name":"Minotaur Skullcleaver",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"minotaurskullcleaver.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":133,
+      "card_name":"Portent of Betrayal",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"portentofbetrayal.jpg",
+      "converted_mana_cost":4,
+      "is_creature":false
+    },
+    {
+      "id":134,
+      "card_name":"Priest of Iroas",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"priestofiroas.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":137,
+      "card_name":"Rage of Purphoros",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"rageofpurphoros.jpg",
+      "converted_mana_cost":5,
+      "is_creature":false
+    },
+    {
+      "id":139,
+      "card_name":"Satyr Rambler",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"satyrrambler.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":140,
+      "card_name":"Spark Jolt",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"sparkjolt.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":141,
+      "card_name":"Spearpoint Oread",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"spearpointoread.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":145,
+      "card_name":"Titan's Strength",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"titansstrength.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":146,
+      "card_name":"Two-Headed Cerberus",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"twoheadedcerberus.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":147,
+      "card_name":"Wild Celebrants",
+      "rarity":"C",
+      "color":"red",
+      "img_src":"wildcelebrants.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":148,
+      "card_name":"Agent of Horizons",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"agentofhorizons.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":155,
+      "card_name":"Commune with the Gods",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"communewiththegods.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":156,
+      "card_name":"Defend the Hearth",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"defendthehearth.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":157,
+      "card_name":"Fade into Antiquity",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"fadeintoantiquity.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":158,
+      "card_name":"Feral Invocation",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"feralinvocation.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":161,
+      "card_name":"Leafcrown Dryad",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"leafcrowndryad.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":164,
+      "card_name":"Nessian Asp",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"nessianasp.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":165,
+      "card_name":"Nessian Courser",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"nessiancourser.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":167,
+      "card_name":"Nylea's Disciple",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"nyleasdisciple.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":169,
+      "card_name":"Nylea's Presence",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"nyleaspresence.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":171,
+      "card_name":"Pheres-Band Centaurs",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"pheresbandcentaurs.jpg",
+      "converted_mana_cost":5,
+      "is_creature":true
+    },
+    {
+      "id":174,
+      "card_name":"Satyr Hedonist",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"satyrhedonist.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":176,
+      "card_name":"Savage Surge",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"savagesurge.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":177,
+      "card_name":"Sedge Scorpion",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"sedgescorpion.jpg",
+      "converted_mana_cost":1,
+      "is_creature":true
+    },
+    {
+      "id":178,
+      "card_name":"Shredding Winds",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"shreddingwinds.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":179,
+      "card_name":"Staunch-Hearted Warrior",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"staunchheartedwarrior.jpg",
+      "converted_mana_cost":4,
+      "is_creature":true
+    },
+    {
+      "id":181,
+      "card_name":"Time to Feed",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"timetofeed.jpg",
+      "converted_mana_cost":3,
+      "is_creature":false
+    },
+    {
+      "id":182,
+      "card_name":"Voyaging Satyr",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"voyagingsatyr.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":183,
+      "card_name":"Vulpine Goliath",
+      "rarity":"C",
+      "color":"green",
+      "img_src":"vulpinegoliath.jpg",
+      "converted_mana_cost":6,
+      "is_creature":true
+    },
+    {
+      "id":212,
+      "card_name":"Bronze Sable",
+      "rarity":"C",
+      "color":"artifact",
+      "img_src":"bronzesable.jpg",
+      "converted_mana_cost":2,
+      "is_creature":true
+    },
+    {
+      "id":216,
+      "card_name":"Fleetfeather Sandals",
+      "rarity":"C",
+      "color":"artifact",
+      "img_src":"fleetfeathersandals.jpg",
+      "converted_mana_cost":2,
+      "is_creature":false
+    },
+    {
+      "id":217,
+      "card_name":"Guardians of Meletis",
+      "rarity":"C",
+      "color":"artifact",
+      "img_src":"guardiansofmeletis.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":218,
+      "card_name":"Opaline Unicorn",
+      "rarity":"C",
+      "color":"artifact",
+      "img_src":"opalineunicorn.jpg",
+      "converted_mana_cost":3,
+      "is_creature":true
+    },
+    {
+      "id":221,
+      "card_name":"Traveler's Amulet",
+      "rarity":"C",
+      "color":"artifact",
+      "img_src":"travelersamulet.jpg",
+      "converted_mana_cost":1,
+      "is_creature":false
+    },
+    {
+      "id":229,
+      "card_name":"Unknown Shores",
+      "rarity":"C",
+      "color":"land",
+      "img_src":"unknownshores.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    }
+  ],
+  "land":[
+    {
+      "id":230,
+      "card_name":"Plains 1",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"plains1.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":231,
+      "card_name":"Plains 2",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"plains2.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":232,
+      "card_name":"Plains 3",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"plains3.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":233,
+      "card_name":"Plains 4",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"plains4.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":234,
+      "card_name":"Island 1",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"island1.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":235,
+      "card_name":"Island 2",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"island2.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":236,
+      "card_name":"Island 3",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"island3.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":237,
+      "card_name":"Island 4",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"island4.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":238,
+      "card_name":"Swamp 1",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"swamp1.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":239,
+      "card_name":"Swamp 2",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"swamp2.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":240,
+      "card_name":"Swamp 3",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"swamp3.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":241,
+      "card_name":"Swamp 4",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"swamp4.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":242,
+      "card_name":"Mountain 1",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"mountain1.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":243,
+      "card_name":"Mountain 2",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"mountain2.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":244,
+      "card_name":"Mountain 3",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"mountain3.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":245,
+      "card_name":"Mountain 4",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"mountain4.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":246,
+      "card_name":"Forest 1",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"forest1.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":247,
+      "card_name":"Forest 2",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"forest2.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":248,
+      "card_name":"Forest 3",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"forest3.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    },
+    {
+      "id":249,
+      "card_name":"Forest 4",
+      "rarity":"L",
+      "color":"land",
+      "img_src":"forest4.jpg",
+      "converted_mana_cost":0,
+      "is_creature":false
+    }
+  ]
+}
