@@ -67,18 +67,17 @@ magic.pickFoil = ->
   ran = @getRandomInt 1, 100
 
   # Determine rarity of foil.
-  switch ran
-    # common
-    when ran >= 1 and ran <= 66 then rarity = 'common'
-    # uncommon
-    when ran > 66 and ran <= 86 then rarity = 'uncommon'
-    # rare
-    when ran > 86 and ran <= 92 then rarity = 'rare'
-    # mythic
-    when ran is 93 then rarity = 'mythic'
-    #default to land
-    else rarity = 'land'
-
+  #default to land
+  rarity = 'land'
+  # common
+  if ran >= 1 and ran <= 66 then rarity = 'common'
+  # uncommon
+  if ran > 66 and ran <= 86 then rarity = 'uncommon'
+  # rare
+  if ran > 86 and ran <= 92 then rarity = 'rare'
+  # mythic
+  if ran is 93 then rarity = 'mythic'
+  
   # Determine index of card.
   ran = @getRandomInt 0, draft.cardSet[rarity].length - 1
 
