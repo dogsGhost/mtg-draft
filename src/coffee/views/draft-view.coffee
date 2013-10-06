@@ -13,7 +13,7 @@
       'click #collectionNav a': 'toggleContent'
 
     initialize: ->
-      @listenTo draft.draftedCards, 'add', @addDrafted
+      @listenTo draft.draftedCards, 'add', @renderDraftedCard
       @render()
 
     toggleContent: (e) ->
@@ -33,39 +33,41 @@
         .addClass 'active'
 
       # Hide other cotent, show new content.
-      $($parent.siblings().find('a').attr('href')).hide()
-      $($tar.attr('href')).show()
+      $( $parent.siblings().find('a').attr('href') ).hide()
+      $( $tar.attr('href') ).show()
     
     render: ->
       content = 
         round: draft.round
         pack: draft.pack
         pick: draft.pick
+        use_timer: draft.use_timer
         drafted_total: draft.draftedCards.length
         creature_count: draft.draftedCards.where(is_creature: true).length
 
-      ###
-      Should we insrt the cards at this point by nesting views?
-      ie. calling render for our card models and passing the output into this view template?
-      ###
-
       # Insert html on page.
       @$el.html @template content
+
       # Insert cards into html we just added.
       @renderPack()
+      @renderDrafted()
       @$('#boosterPack').append '<li class="card branding"><img src="img/branding/pwsymbol.png" alt=""></li>'
-      @renderDraftedCards()
 
     renderPack: ->
+      @$('#boosterPack').empty()
       pack = draft.packs[draft.round - 1][draft.pack - 1]
-      _.each pack.models, @renderCard
+      _.each pack.models, @renderPackCard
 
-    renderDraftedCards: ->
-
-    renderCard: (card, index, list) ->
+    renderPackCard: (card, index, list) ->
       cardView = new draft.CardView model: card
       $('#boosterPack').append cardView.render().el
 
-    addDrafted: ->
+    renderDrafted: ->
+      pack = draft.draftedCards
+      _.each pack.models, @renderDraftedCard
+
+    renderDraftedCard: (card, index, list) ->
+      cardView = new draft.CardView model: card
+      $('#draftedCards .drafted-cards__list').append cardView.render().el
 
 ) jQuery
