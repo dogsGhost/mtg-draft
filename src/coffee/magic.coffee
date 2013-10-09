@@ -13,39 +13,30 @@ magic.createBooster = ->
 
   # Randomize the order of the cards we're pulling from.
   for rarity of draft.cardSet
-    @shuffle draft.cardSet[rarity]
+    draft.cardSet[rarity] = _.shuffle draft.cardSet[rarity]
 
   # 1 LAND
   # Add 1 land to the pack.
-  ran = @getRandomInt 0, draft.cardSet.land.length - 1
-  booster.add draft.cardSet.land[ran]
+  booster.add _.sample draft.cardSet.land
 
   # 1 RARE
   booster.add @addRare()
 
   # 3 UNCOMMON
-  # Start at a random card.
-  ran = @getRandomInt 2, draft.cardSet.uncommon.length - 1
-  i = ran
-  while i > ran - 3
-    # Add card to booster.
-    booster.add draft.cardSet.uncommon[i]
-    i--
+  ranCards = _.sample draft.cardSet.uncommon, 3
+  _.each ranCards, (el, i, list) ->
+    booster.add el
 
   # 10 COMMON
-  ###
-  ISSUE: sometimes getting 9 commons instead of 10, thinking the issue is here somewhere.
-  ###
-  ran = @getRandomInt 9, draft.cardSet.common.length - 1
-  i = ran
-  while i > ran - 10
-    booster.add draft.cardSet.common[i]
-    i--
+  ranCards = _.sample draft.cardSet.common, 10
+  _.each ranCards, (el, i, list) ->
+    booster.add el
+
 
   # CHANCE FOIL
   # Roughly 1 in 4 packs replace a common with a foil version of a card.
   # This card can be any rarity, based on the same rarity distribtion of a pack.
-  ran = @getRandomInt 1, 4
+  ran = _.sample _.range 1, 4
 
   # Again, 3 is the magic number. We find and swap in the foil.
   if ran is 3
@@ -62,9 +53,21 @@ magic.createBooster = ->
   # Return the booster pack array.
   booster
 
+magic.addRare = ->
+  # 1 in 8 rares are mythic, so perform a check to see if this one will be.
+  ran = _.sample _.range 1, 8
+
+  # The magic number is 3. If 3 is the random number we get a mythic.
+  if ran is 3
+    return _.sample draft.cardSet.mythic
+  
+  # Otherwise just a regular rare.
+  _.sample draft.cardSet.rare
+
 magic.pickFoil = ->
   # Pick a number 1 to 100.
-  ran = @getRandomInt 1, 100
+  ran = _.sample _.shuffle _.range 1, 100
+  console.log ran
 
   # Determine rarity of foil.
   #default to land
@@ -79,43 +82,14 @@ magic.pickFoil = ->
   if ran is 93 then rarity = 'mythic'
   
   # Determine index of card.
-  ran = @getRandomInt 0, draft.cardSet[rarity].length - 1
+  ranCard = _.sample draft.cardSet[rarity]
 
   # Create new instance of card object rather than reference it.
   # Otherwise that object would have the foil property misset.
-  card = $.extend {}, draft.cardSet[rarity][ran]
+  card = $.extend {}, ranCard
   
   # Set foil property to distinguish it as foil.
   card.is_foil = true
   
   # Return the card.
   card
-
-magic.addRare = ->
-  # 1 in 8 rares are mythic, so perform a check to see if this one will be.
-  ran = @getRandomInt 1, 8
-
-  # The magic number is 3. If 3 is the random number we get a mythic.
-  if ran is 3
-    ran = @getRandomInt 0, draft.cardSet.mythic.length - 1
-    return draft.cardSet.mythic[ran]
-  
-  # Otherwise just a regular rare.
-  ran = @getRandomInt 0, draft.cardSet.rare.length - 1
-  draft.cardSet.rare[ran]
-
-magic.getRandomInt = (min, max) ->
-  # Return a number between the min and min, inclusively.
-  Math.floor Math.random() * (max - min + 1) + min
-
-magic.shuffle = (arr) ->
-  # Perform the Fisher-Yates shuffle on an array.
-  i  = arr.length
-  return false if i is 0
-  while --i
-    j = Math.floor Math.random() * (i + 1)
-    tempi = arr[i]
-    tempj = arr[j]
-    arr[i] = tempj
-    arr[j] = tempi
-  arr
