@@ -20,6 +20,10 @@ a {
   }
 }
 
+label, input[type="radio"] {
+  cursor: pointer;
+}
+
 .clearfix, %clearfix {
   @include clearfix();
 }

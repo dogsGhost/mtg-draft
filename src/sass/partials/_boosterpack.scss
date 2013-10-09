@@ -1,0 +1,77 @@
+.booster-pack {
+
+  .card {
+    @extend .col;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+}
+
+.card {
+  margin: 0 auto;
+  padding: 0 4px 8px;
+  position: relative;
+  width: 243px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    max-width: 235px;
+    border-radius: 10px;    
+  }
+}
+
+.card--foil {
+  cursor: pointer; // can't set cursor on pseudo element so have to set on parent.
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 3%;
+    bottom: 5%;
+    width: 92%;
+    left: 50%;
+    margin-left: -107px;
+    max-width: 215px;
+    opacity: .3;
+    background: linear-gradient(55deg, red, orange, yellow, green, blue, indigo,
+      violet, red, orange, yellow, green, blue, indigo);
+  }
+}
+
+.branding {
+
+  img {
+    cursor: default;  
+  }
+}
+
+// Hide/show branding based on # of columns cards are in and # of cards left.
+@include mq($small-screen, $small-mid-screen) {
+  li:nth-child(even) + .branding {
+    display: none;
+  }  
+}
+
+@include mq($small-mid-screen, $med-screen) {
+  li:nth-child(3n) + .branding {
+    display: none;
+  }  
+}
+
+@include mq($med-screen, $lrg-screen) {
+  li:nth-child(4n) + .branding {
+    display: none;
+  }  
+}
+
+@include mq($lrg-screen) {
+  li:nth-child(5n) + .branding {
+    display: none;
+  }  
+}

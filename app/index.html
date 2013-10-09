@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <title>Magic Draft</title>
   <link rel="stylesheet" href="css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/vendor/modernizr/modernizr.js"></script>
 </head>
 <body>
   <div class="page-container">
@@ -14,13 +15,13 @@
     </header>
     <div id="mainContent" class="main-content">
       <p>Select which set you would like to draft with.</p>
-      <ul id="setList" class="set-list">
+      <ul id="setList" class="list-set-names">
         <li><a href="#/theros" class="theros">Theros</a></li>
         <li><a href="#/m14" class="m14">Magic 2014</a></li>
       </ul>
-      <div id="options">
-        <h3>Options:</h3>
-        <div id="timerOption">Use timer when picking?
+      <div id="options" class="options">
+        <h3 class="heading">Options:</h3>
+        <div id="timerOption" class="option">Use timer when picking?
           <label for="radio1">Yes </label><input value="1" name="timer" id="radio1" type="radio" checked>
           <label for="radio2">No </label><input value="0" name="timer" id="radio2" type="radio">
         </div>
@@ -81,7 +82,10 @@
   <script type="text/template" id="draftedInfoTemplate">
     <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> | 
     <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
-  </script>  
+  </script>
+
+  <script type="text/template" id="postRoundTemplate">
+  </script>
   
   <script src="js/vendor/jquery/jquery.js"></script>
   <script src="js/vendor/underscore/underscore.js"></script>

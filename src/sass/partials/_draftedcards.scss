@@ -1,0 +1,26 @@
+.drafted-cards {
+  position: relative;
+}
+
+.drafted-info {
+  padding-left: 1em;
+  font-weight: 400;
+  color: $darkgreen;
+}
+
+.set li {
+  margin-top: -276px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  img {
+    position: relative;
+    border-top: 1px solid #555;
+
+    &:hover {
+      z-index: 100;
+    }
+  }
+}
