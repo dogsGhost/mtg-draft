@@ -32,7 +32,7 @@
 
     firstRender: true
 
-    timerEnd: (e) ->
+    timerEnd: ->
       # If the timer runs out, we choose the first card in the pack for the user.
       pack = draft.packs[draft.round - 1][draft.pack - 1]
       card = pack.models[0]
@@ -95,7 +95,7 @@
       @renderPack()
 
       # Render new timer only if first time rendering or if we're using a timer.
-      if @firstRender or (!@firstRender and draft.use_timer)
+      if @firstRender or (not @firstRender and draft.use_timer)
         @$timer.html @timerTemplate use_timer: draft.use_timer
 
       # Add mtg branding to help fill negative space as the number of cards on the page decreases.
@@ -125,10 +125,14 @@
       $('#boosterPack').append cardView.render().el
 
     renderNext: (card) ->
-      # Update draft data and render next booster pack.
-      @renderChildViews()
-      # Render new drafted card.
-      cardView = new draft.CardView model: card
-      @$dcl.append cardView.render().el
+      if draft.pick isnt 15
+        # Update draft data and render next booster pack.
+        @renderChildViews()
+        # Render new drafted card.
+        cardView = new draft.CardView model: card
+        @$dcl.append cardView.render().el
+      else
+        # If its the last pick in the round we want to render the between-round view instead.
+        new draft.PostRoundView()
 
 ) jQuery
