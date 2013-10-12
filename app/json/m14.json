@@ -7,7 +7,8 @@
       "color":"white",
       "img_src":"ajanicallerofthepride.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":5,
@@ -16,7 +17,8 @@
       "color":"white",
       "img_src":"archangelofthune.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":9
     },
     {
       "card_id":16,
@@ -25,7 +27,8 @@
       "color":"white",
       "img_src":"devoutinvocation.jpg",
       "converted_mana_cost":7,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":60,
@@ -34,7 +37,8 @@
       "color":"blue",
       "img_src":"jacememoryadept.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":81,
@@ -43,7 +47,8 @@
       "color":"blue",
       "img_src":"windreadersphinx.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":9
     },
     {
       "card_id":102,
@@ -52,7 +57,8 @@
       "color":"black",
       "img_src":"lilianaofthedarkrealms.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":111,
@@ -61,7 +67,8 @@
       "color":"black",
       "img_src":"riseofthedarkrealms.jpg",
       "converted_mana_cost":9,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":115,
@@ -70,7 +77,8 @@
       "color":"black",
       "img_src":"shadowborndemon.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":9
     },
     {
       "card_id":132,
@@ -79,7 +87,8 @@
       "color":"red",
       "img_src":"chandrapyromaster.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":151,
@@ -88,7 +97,8 @@
       "color":"red",
       "img_src":"scourgeofvalkas.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":9
     },
     {
       "card_id":172,
@@ -97,7 +107,8 @@
       "color":"green",
       "img_src":"garrukcallerofbeasts.jpg",
       "converted_mana_cost":6,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":181,
@@ -106,7 +117,8 @@
       "color":"green",
       "img_src":"kalonianhydra.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":9
     },
     {
       "card_id":190,
@@ -115,7 +127,8 @@
       "color":"green",
       "img_src":"primevalbounty.jpg",
       "converted_mana_cost":6,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":206,
@@ -124,7 +137,8 @@
       "color":"artifact",
       "img_src":"darksteelforge.jpg",
       "converted_mana_cost":9,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     },
     {
       "card_id":216,
@@ -133,7 +147,8 @@
       "color":"artifact",
       "img_src":"ringofthreewishes.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":9
     }
   ],
   "rare":[
@@ -144,7 +159,8 @@
       "color":"white",
       "img_src":"ajanischosen.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":9,
@@ -153,7 +169,8 @@
       "color":"white",
       "img_src":"bonescythesliver.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":18,
@@ -162,7 +179,8 @@
       "color":"white",
       "img_src":"fiendslayerpaladin.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":22,
@@ -171,7 +189,8 @@
       "color":"white",
       "img_src":"imposingsovereign.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":23,
@@ -180,7 +199,8 @@
       "color":"white",
       "img_src":"indestructibility.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":26,
@@ -189,7 +209,8 @@
       "color":"white",
       "img_src":"pathofbravery.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":29,
@@ -198,7 +219,8 @@
       "color":"white",
       "img_src":"planarcleansing.jpg",
       "converted_mana_cost":6,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":31,
@@ -207,7 +229,8 @@
       "color":"white",
       "img_src":"seraphofthesword.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":35,
@@ -216,7 +239,8 @@
       "color":"white",
       "img_src":"silence.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":47,
@@ -225,7 +249,8 @@
       "color":"blue",
       "img_src":"clone.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":48,
@@ -234,7 +259,8 @@
       "color":"blue",
       "img_src":"colossalwhale.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":50,
@@ -243,7 +269,8 @@
       "color":"blue",
       "img_src":"dismissintodream.jpg",
       "converted_mana_cost":7,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":53,
@@ -252,7 +279,8 @@
       "color":"blue",
       "img_src":"domestication.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":54,
@@ -261,7 +289,8 @@
       "color":"blue",
       "img_src":"elitearcanist.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":57,
@@ -270,7 +299,8 @@
       "color":"blue",
       "img_src":"galeridersliver.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":61,
@@ -279,7 +309,8 @@
       "color":"blue",
       "img_src":"jacesmindseeker.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":68,
@@ -288,7 +319,8 @@
       "color":"blue",
       "img_src":"quicken.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":73,
@@ -297,7 +329,8 @@
       "color":"blue",
       "img_src":"tidebindermage.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":77,
@@ -306,7 +339,8 @@
       "color":"blue",
       "img_src":"traumatize.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":88,
@@ -315,7 +349,8 @@
       "color":"black",
       "img_src":"bogbrewwitch.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":93,
@@ -324,7 +359,8 @@
       "color":"black",
       "img_src":"darkprophecy.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":100,
@@ -333,7 +369,8 @@
       "color":"black",
       "img_src":"grimreturn.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":101,
@@ -342,7 +379,8 @@
       "color":"black",
       "img_src":"lifebanezombie.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":103,
@@ -351,7 +389,8 @@
       "color":"black",
       "img_src":"lilianasreaver.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":108,
@@ -360,7 +399,8 @@
       "color":"black",
       "img_src":"nightmare.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":112,
@@ -369,7 +409,8 @@
       "color":"black",
       "img_src":"sanguinebond.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":117,
@@ -378,7 +419,8 @@
       "color":"black",
       "img_src":"syphonsliver.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":123,
@@ -387,7 +429,8 @@
       "color":"black",
       "img_src":"xathridnecromancer.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":126,
@@ -396,7 +439,8 @@
       "color":"red",
       "img_src":"awakentheancient.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":130,
@@ -405,7 +449,8 @@
       "color":"red",
       "img_src":"burningearth.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":134,
@@ -414,7 +459,8 @@
       "color":"red",
       "img_src":"chandrasphoenix.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":141,
@@ -423,7 +469,8 @@
       "color":"red",
       "img_src":"goblindiplomats.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":146,
@@ -432,7 +479,8 @@
       "color":"red",
       "img_src":"mindsparker.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":148,
@@ -441,7 +489,8 @@
       "color":"red",
       "img_src":"ogrebattledriver.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":154,
@@ -450,7 +499,8 @@
       "color":"red",
       "img_src":"shivandragon.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":158,
@@ -459,7 +509,8 @@
       "color":"red",
       "img_src":"thorncastersliver.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":162,
@@ -468,7 +519,8 @@
       "color":"red",
       "img_src":"wildricochet.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":173,
@@ -477,7 +529,8 @@
       "color":"green",
       "img_src":"garrukshorde.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":180,
@@ -486,7 +539,8 @@
       "color":"green",
       "img_src":"intothewilds.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":185,
@@ -495,7 +549,8 @@
       "color":"green",
       "img_src":"meganticsliver.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":187,
@@ -504,7 +559,8 @@
       "color":"green",
       "img_src":"oathoftheancientwood.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":194,
@@ -513,7 +569,8 @@
       "color":"green",
       "img_src":"savagesummoning.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":195,
@@ -522,7 +579,8 @@
       "color":"green",
       "img_src":"scavengingooze.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":198,
@@ -531,7 +589,8 @@
       "color":"green",
       "img_src":"vastwoodhydra.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":202,
@@ -540,7 +599,8 @@
       "color":"green",
       "img_src":"witchstalker.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":208,
@@ -549,7 +609,8 @@
       "color":"artifact",
       "img_src":"doorofdestinies.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":211,
@@ -558,7 +619,8 @@
       "color":"artifact",
       "img_src":"guardianoftheages.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":7
     },
     {
       "card_id":212,
@@ -567,7 +629,8 @@
       "color":"artifact",
       "img_src":"hauntedplatemail.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":214,
@@ -576,7 +639,8 @@
       "color":"artifact",
       "img_src":"pyromancersgauntlet.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":215,
@@ -585,7 +649,8 @@
       "color":"artifact",
       "img_src":"ratchetbomb.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":224,
@@ -594,7 +659,8 @@
       "color":"artifact",
       "img_src":"strionicresonator.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":225,
@@ -603,7 +669,8 @@
       "color":"artifact",
       "img_src":"tradingpost.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     },
     {
       "card_id":228,
@@ -612,7 +679,8 @@
       "color":"land",
       "img_src":"mutavault.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":7
     }
   ],
   "uncommon":[
@@ -623,7 +691,8 @@
       "color":"white",
       "img_src":"angelicaccord.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":7,
@@ -632,7 +701,8 @@
       "color":"white",
       "img_src":"banisherpriest.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":8,
@@ -641,7 +711,8 @@
       "color":"white",
       "img_src":"blessing.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":10,
@@ -650,7 +721,8 @@
       "color":"white",
       "img_src":"bravetheelements.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":14,
@@ -659,7 +731,8 @@
       "color":"white",
       "img_src":"congregate.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":32,
@@ -668,7 +741,8 @@
       "color":"white",
       "img_src":"serraangel.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":38,
@@ -677,7 +751,8 @@
       "color":"white",
       "img_src":"steelformsliver.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":39,
@@ -686,7 +761,8 @@
       "color":"white",
       "img_src":"stonehornchanter.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":41,
@@ -695,7 +771,8 @@
       "color":"white",
       "img_src":"wallofswords.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":42,
@@ -704,7 +781,8 @@
       "color":"blue",
       "img_src":"airservant.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":58,
@@ -713,7 +791,8 @@
       "color":"blue",
       "img_src":"glimpsethefuture.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":59,
@@ -722,7 +801,8 @@
       "color":"blue",
       "img_src":"illusionaryarmor.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":66,
@@ -731,7 +811,8 @@
       "color":"blue",
       "img_src":"opportunity.jpg",
       "converted_mana_cost":6,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":67,
@@ -740,7 +821,8 @@
       "color":"blue",
       "img_src":"phantomwarrior.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":72,
@@ -749,7 +831,8 @@
       "color":"blue",
       "img_src":"spellblast.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":78,
@@ -758,7 +841,8 @@
       "color":"blue",
       "img_src":"walloffrost.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":79,
@@ -767,7 +851,8 @@
       "color":"blue",
       "img_src":"wardenofevosisle.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":80,
@@ -776,7 +861,8 @@
       "color":"blue",
       "img_src":"waterservant.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":85,
@@ -785,7 +871,8 @@
       "color":"black",
       "img_src":"artificershex.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":86,
@@ -794,7 +881,8 @@
       "color":"black",
       "img_src":"blightcaster.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":91,
@@ -803,7 +891,8 @@
       "color":"black",
       "img_src":"corrupt.jpg",
       "converted_mana_cost":6,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":95,
@@ -812,7 +901,8 @@
       "color":"black",
       "img_src":"diabolictutor.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":96,
@@ -821,7 +911,8 @@
       "color":"black",
       "img_src":"doomblade.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":99,
@@ -830,7 +921,8 @@
       "color":"black",
       "img_src":"gnawingzombie.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":113,
@@ -839,7 +931,8 @@
       "color":"black",
       "img_src":"sengirvampire.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":118,
@@ -848,7 +941,8 @@
       "color":"black",
       "img_src":"tenaciousdead.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":120,
@@ -857,7 +951,8 @@
       "color":"black",
       "img_src":"vampirewarlord.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":127,
@@ -866,7 +961,8 @@
       "color":"red",
       "img_src":"barrageofexpendables.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":128,
@@ -875,7 +971,8 @@
       "color":"red",
       "img_src":"battlesliver.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":137,
@@ -884,7 +981,8 @@
       "color":"red",
       "img_src":"dragonegg.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":139,
@@ -893,7 +991,8 @@
       "color":"red",
       "img_src":"flamesofthefirebrand.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":140,
@@ -902,7 +1001,8 @@
       "color":"red",
       "img_src":"fleshpulpergiant.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":147,
@@ -911,7 +1011,8 @@
       "color":"red",
       "img_src":"moltenbirth.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":153,
@@ -920,7 +1021,8 @@
       "color":"red",
       "img_src":"shivsembrace.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":160,
@@ -929,7 +1031,8 @@
       "color":"red",
       "img_src":"volcanicgeyser.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":163,
@@ -938,7 +1041,8 @@
       "color":"red",
       "img_src":"youngpyromancer.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":165,
@@ -947,7 +1051,8 @@
       "color":"green",
       "img_src":"bramblecrush.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":166,
@@ -956,7 +1061,8 @@
       "color":"green",
       "img_src":"briarpackalpha.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":170,
@@ -965,7 +1071,8 @@
       "color":"green",
       "img_src":"enlarge.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":178,
@@ -974,7 +1081,8 @@
       "color":"green",
       "img_src":"howlofthenightpack.jpg",
       "converted_mana_cost":7,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":182,
@@ -983,7 +1091,8 @@
       "color":"green",
       "img_src":"kaloniantusker.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":184,
@@ -992,7 +1101,8 @@
       "color":"green",
       "img_src":"manaweftsliver.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":200,
@@ -1001,7 +1111,8 @@
       "color":"green",
       "img_src":"voraciouswurm.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":201,
@@ -1010,7 +1121,8 @@
       "color":"green",
       "img_src":"windstorm.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":203,
@@ -1019,7 +1131,8 @@
       "color":"green",
       "img_src":"woodbornbehemoth.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":5
     },
     {
       "card_id":204,
@@ -1028,7 +1141,8 @@
       "color":"artifact",
       "img_src":"accordersshield.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":205,
@@ -1037,7 +1151,8 @@
       "color":"artifact",
       "img_src":"bubblingcauldron.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":207,
@@ -1046,7 +1161,8 @@
       "color":"artifact",
       "img_src":"darksteelingot.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":209,
@@ -1055,7 +1171,8 @@
       "color":"artifact",
       "img_src":"elixirofimmortality.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":210,
@@ -1064,7 +1181,8 @@
       "color":"artifact",
       "img_src":"fireshrieker.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":213,
@@ -1073,7 +1191,8 @@
       "color":"artifact",
       "img_src":"millstone.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":217,
@@ -1082,7 +1201,8 @@
       "color":"artifact",
       "img_src":"rodofruin.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":219,
@@ -1091,7 +1211,8 @@
       "color":"artifact",
       "img_src":"staffofthedeathmagus.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":220,
@@ -1100,7 +1221,8 @@
       "color":"artifact",
       "img_src":"staffoftheflamemagus.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":221,
@@ -1109,7 +1231,8 @@
       "color":"artifact",
       "img_src":"staffofthemindmagus.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":222,
@@ -1118,7 +1241,8 @@
       "color":"artifact",
       "img_src":"staffofthesunmagus.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":223,
@@ -1127,7 +1251,8 @@
       "color":"artifact",
       "img_src":"staffofthewildmagus.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":226,
@@ -1136,7 +1261,8 @@
       "color":"artifact",
       "img_src":"vialofpoison.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":227,
@@ -1145,7 +1271,8 @@
       "color":"land",
       "img_src":"encroachingwastes.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     },
     {
       "card_id":229,
@@ -1154,7 +1281,8 @@
       "color":"land",
       "img_src":"shimmeringgrotto.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":5
     }
   ],
   "common":[
@@ -1165,7 +1293,8 @@
       "color":"white",
       "img_src":"angelicwall.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":6,
@@ -1174,7 +1303,8 @@
       "color":"white",
       "img_src":"auramancer.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":11,
@@ -1183,7 +1313,8 @@
       "color":"white",
       "img_src":"capashenknight.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":12,
@@ -1192,7 +1323,8 @@
       "color":"white",
       "img_src":"celestialflare.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":13,
@@ -1201,7 +1333,8 @@
       "color":"white",
       "img_src":"charginggriffin.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":15,
@@ -1210,7 +1343,8 @@
       "color":"white",
       "img_src":"dawnstrikepaladin.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":17,
@@ -1219,7 +1353,8 @@
       "color":"white",
       "img_src":"divinefavor.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":19,
@@ -1228,7 +1363,8 @@
       "color":"white",
       "img_src":"fortify.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":20,
@@ -1237,7 +1373,8 @@
       "color":"white",
       "img_src":"griffinsentinel.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":21,
@@ -1246,7 +1383,8 @@
       "color":"white",
       "img_src":"hivestirrings.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":24,
@@ -1255,7 +1393,8 @@
       "color":"white",
       "img_src":"masterofdiversion.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":25,
@@ -1264,7 +1403,8 @@
       "color":"white",
       "img_src":"pacifism.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":27,
@@ -1273,7 +1413,8 @@
       "color":"white",
       "img_src":"paynoheed.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":28,
@@ -1282,7 +1423,8 @@
       "color":"white",
       "img_src":"pillarfieldox.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":30,
@@ -1291,7 +1433,8 @@
       "color":"white",
       "img_src":"sentinelsliver.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":33,
@@ -1300,7 +1443,8 @@
       "color":"white",
       "img_src":"showofvalor.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":34,
@@ -1309,7 +1453,8 @@
       "color":"white",
       "img_src":"siegemastodon.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":36,
@@ -1318,7 +1463,8 @@
       "color":"white",
       "img_src":"solemnoffering.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":37,
@@ -1327,7 +1473,8 @@
       "color":"white",
       "img_src":"soulmender.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":40,
@@ -1336,7 +1483,8 @@
       "color":"white",
       "img_src":"suntailhawk.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":43,
@@ -1345,7 +1493,8 @@
       "color":"blue",
       "img_src":"archaeomancer.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":44,
@@ -1354,7 +1503,8 @@
       "color":"blue",
       "img_src":"armoredcancrix.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":45,
@@ -1363,7 +1513,8 @@
       "color":"blue",
       "img_src":"cancel.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":46,
@@ -1372,7 +1523,8 @@
       "color":"blue",
       "img_src":"claustrophobia.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":49,
@@ -1381,7 +1533,8 @@
       "color":"blue",
       "img_src":"coralmerfolk.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":51,
@@ -1390,7 +1543,8 @@
       "color":"blue",
       "img_src":"disperse.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":52,
@@ -1399,7 +1553,8 @@
       "color":"blue",
       "img_src":"divination.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":55,
@@ -1408,7 +1563,8 @@
       "color":"blue",
       "img_src":"essencescatter.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":56,
@@ -1417,7 +1573,8 @@
       "color":"blue",
       "img_src":"frostbreath.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":62,
@@ -1426,7 +1583,8 @@
       "color":"blue",
       "img_src":"merfolkspy.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":63,
@@ -1435,7 +1593,8 @@
       "color":"blue",
       "img_src":"messengerdrake.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":64,
@@ -1444,7 +1603,8 @@
       "color":"blue",
       "img_src":"negate.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":65,
@@ -1453,7 +1613,8 @@
       "color":"blue",
       "img_src":"nephaliaseakite.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":69,
@@ -1462,7 +1623,8 @@
       "color":"blue",
       "img_src":"scrollthief.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":70,
@@ -1471,7 +1633,8 @@
       "color":"blue",
       "img_src":"seacoastdrake.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":71,
@@ -1480,7 +1643,8 @@
       "color":"blue",
       "img_src":"sensorydeprivation.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":74,
@@ -1489,7 +1653,8 @@
       "color":"blue",
       "img_src":"timeebb.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":75,
@@ -1498,7 +1663,8 @@
       "color":"blue",
       "img_src":"tomescour.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":76,
@@ -1507,7 +1673,8 @@
       "color":"blue",
       "img_src":"trainedcondor.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":82,
@@ -1516,7 +1683,8 @@
       "color":"blue",
       "img_src":"zephyrcharge.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":83,
@@ -1525,7 +1693,8 @@
       "color":"black",
       "img_src":"accursedspirit.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":84,
@@ -1534,7 +1703,8 @@
       "color":"black",
       "img_src":"altarsreap.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":87,
@@ -1543,7 +1713,8 @@
       "color":"black",
       "img_src":"bloodbairn.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":89,
@@ -1552,7 +1723,8 @@
       "color":"black",
       "img_src":"childofnight.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":90,
@@ -1561,7 +1733,8 @@
       "color":"black",
       "img_src":"corpsehauler.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":92,
@@ -1570,7 +1743,8 @@
       "color":"black",
       "img_src":"darkfavor.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":94,
@@ -1579,7 +1753,8 @@
       "color":"black",
       "img_src":"deathgazecockatrice.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":97,
@@ -1588,7 +1763,8 @@
       "color":"black",
       "img_src":"duress.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":98,
@@ -1597,7 +1773,8 @@
       "color":"black",
       "img_src":"festeringnewt.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":104,
@@ -1606,7 +1783,8 @@
       "color":"black",
       "img_src":"liturgyofblood.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":105,
@@ -1615,7 +1793,8 @@
       "color":"black",
       "img_src":"markofthevampire.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":106,
@@ -1624,7 +1803,8 @@
       "color":"black",
       "img_src":"mindrot.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":107,
@@ -1633,7 +1813,8 @@
       "color":"black",
       "img_src":"minotaurabomination.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":109,
@@ -1642,7 +1823,8 @@
       "color":"black",
       "img_src":"nightwingshade.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":110,
@@ -1651,7 +1833,8 @@
       "color":"black",
       "img_src":"quagsickness.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":114,
@@ -1660,7 +1843,8 @@
       "color":"black",
       "img_src":"shadowbornapostle.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":116,
@@ -1669,7 +1853,8 @@
       "color":"black",
       "img_src":"shrivel.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":119,
@@ -1678,7 +1863,8 @@
       "color":"black",
       "img_src":"undeadminotaur.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":121,
@@ -1687,7 +1873,8 @@
       "color":"black",
       "img_src":"vilerebirth.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":122,
@@ -1696,7 +1883,8 @@
       "color":"black",
       "img_src":"wringflesh.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":124,
@@ -1705,7 +1893,8 @@
       "color":"red",
       "img_src":"academyraider.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":125,
@@ -1714,7 +1903,8 @@
       "color":"red",
       "img_src":"actoftreason.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":129,
@@ -1723,7 +1913,8 @@
       "color":"red",
       "img_src":"blursliver.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":131,
@@ -1732,7 +1923,8 @@
       "color":"red",
       "img_src":"canyonminotaur.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":133,
@@ -1741,7 +1933,8 @@
       "color":"red",
       "img_src":"chandrasoutrage.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":135,
@@ -1750,7 +1943,8 @@
       "color":"red",
       "img_src":"cyclopstyrant.jpg",
       "converted_mana_cost":6,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":136,
@@ -1759,7 +1953,8 @@
       "color":"red",
       "img_src":"demolish.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":138,
@@ -1768,7 +1963,8 @@
       "color":"red",
       "img_src":"dragonhatchling.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":142,
@@ -1777,7 +1973,8 @@
       "color":"red",
       "img_src":"goblinshortcutter.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":143,
@@ -1786,7 +1983,8 @@
       "color":"red",
       "img_src":"lavaaxe.jpg",
       "converted_mana_cost":5,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":144,
@@ -1795,7 +1993,8 @@
       "color":"red",
       "img_src":"lightningtalons.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":145,
@@ -1804,7 +2003,8 @@
       "color":"red",
       "img_src":"maraudingmaulhorn.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":149,
@@ -1813,7 +2013,8 @@
       "color":"red",
       "img_src":"pitchburndevils.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":150,
@@ -1822,7 +2023,8 @@
       "color":"red",
       "img_src":"regathanfirecat.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":152,
@@ -1831,7 +2033,8 @@
       "color":"red",
       "img_src":"seismicstomp.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":155,
@@ -1840,7 +2043,8 @@
       "color":"red",
       "img_src":"shock.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":156,
@@ -1849,7 +2053,8 @@
       "color":"red",
       "img_src":"smelt.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":157,
@@ -1858,7 +2063,8 @@
       "color":"red",
       "img_src":"strikingsliver.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":159,
@@ -1867,7 +2073,8 @@
       "color":"red",
       "img_src":"thunderstrike.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":161,
@@ -1876,7 +2083,8 @@
       "color":"red",
       "img_src":"wildguess.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":164,
@@ -1885,7 +2093,8 @@
       "color":"green",
       "img_src":"advocateofthebeast.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":167,
@@ -1894,7 +2103,8 @@
       "color":"green",
       "img_src":"brindleboar.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":168,
@@ -1903,7 +2113,8 @@
       "color":"green",
       "img_src":"deadlyrecluse.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":169,
@@ -1912,7 +2123,8 @@
       "color":"green",
       "img_src":"elvishmystic.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":171,
@@ -1921,7 +2133,8 @@
       "color":"green",
       "img_src":"fog.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":174,
@@ -1930,7 +2143,8 @@
       "color":"green",
       "img_src":"giantgrowth.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":175,
@@ -1939,7 +2153,8 @@
       "color":"green",
       "img_src":"giantspider.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":176,
@@ -1948,7 +2163,8 @@
       "color":"green",
       "img_src":"gladecoverscout.jpg",
       "converted_mana_cost":1,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":177,
@@ -1957,7 +2173,8 @@
       "color":"green",
       "img_src":"groundshakersliver.jpg",
       "converted_mana_cost":7,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":179,
@@ -1966,7 +2183,8 @@
       "color":"green",
       "img_src":"hunttheweak.jpg",
       "converted_mana_cost":4,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":183,
@@ -1975,7 +2193,8 @@
       "color":"green",
       "img_src":"layoftheland.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":186,
@@ -1984,7 +2203,8 @@
       "color":"green",
       "img_src":"naturalize.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":188,
@@ -1993,7 +2213,8 @@
       "color":"green",
       "img_src":"plummet.jpg",
       "converted_mana_cost":2,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":189,
@@ -2002,7 +2223,8 @@
       "color":"green",
       "img_src":"predatorysliver.jpg",
       "converted_mana_cost":2,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":191,
@@ -2011,7 +2233,8 @@
       "color":"green",
       "img_src":"rangersguile.jpg",
       "converted_mana_cost":1,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":192,
@@ -2020,7 +2243,8 @@
       "color":"green",
       "img_src":"rootwalla.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":193,
@@ -2029,7 +2253,8 @@
       "color":"green",
       "img_src":"rumblingbaloth.jpg",
       "converted_mana_cost":4,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":196,
@@ -2038,7 +2263,8 @@
       "color":"green",
       "img_src":"sporemound.jpg",
       "converted_mana_cost":5,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     },
     {
       "card_id":197,
@@ -2047,7 +2273,8 @@
       "color":"green",
       "img_src":"trollhide.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":199,
@@ -2056,7 +2283,8 @@
       "color":"green",
       "img_src":"verdanthaven.jpg",
       "converted_mana_cost":3,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":3
     },
     {
       "card_id":218,
@@ -2065,7 +2293,8 @@
       "color":"artifact",
       "img_src":"sliverconstruct.jpg",
       "converted_mana_cost":3,
-      "is_creature":true
+      "is_creature":true,
+      "play_value":3
     }
   ],
   "land":[
@@ -2076,7 +2305,8 @@
       "color":"land",
       "img_src":"plains1.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":231,
@@ -2085,7 +2315,8 @@
       "color":"land",
       "img_src":"plains2.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":232,
@@ -2094,7 +2325,8 @@
       "color":"land",
       "img_src":"plains3.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":233,
@@ -2103,7 +2335,8 @@
       "color":"land",
       "img_src":"plains4.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":234,
@@ -2112,7 +2345,8 @@
       "color":"land",
       "img_src":"island1.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":235,
@@ -2121,7 +2355,8 @@
       "color":"land",
       "img_src":"island2.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":236,
@@ -2130,7 +2365,8 @@
       "color":"land",
       "img_src":"island3.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":237,
@@ -2139,7 +2375,8 @@
       "color":"land",
       "img_src":"island4.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":238,
@@ -2148,7 +2385,8 @@
       "color":"land",
       "img_src":"swamp1.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":239,
@@ -2157,7 +2395,8 @@
       "color":"land",
       "img_src":"swamp2.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":240,
@@ -2166,7 +2405,8 @@
       "color":"land",
       "img_src":"swamp3.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":241,
@@ -2175,7 +2415,8 @@
       "color":"land",
       "img_src":"swamp4.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":242,
@@ -2184,7 +2425,8 @@
       "color":"land",
       "img_src":"mountain1.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":243,
@@ -2193,7 +2435,8 @@
       "color":"land",
       "img_src":"mountain2.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":244,
@@ -2202,7 +2445,8 @@
       "color":"land",
       "img_src":"mountain3.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":245,
@@ -2211,7 +2455,8 @@
       "color":"land",
       "img_src":"mountain4.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":246,
@@ -2220,7 +2465,8 @@
       "color":"land",
       "img_src":"forest1.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":247,
@@ -2229,7 +2475,8 @@
       "color":"land",
       "img_src":"forest2.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":248,
@@ -2238,7 +2485,8 @@
       "color":"land",
       "img_src":"forest3.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     },
     {
       "card_id":249,
@@ -2247,7 +2495,8 @@
       "color":"land",
       "img_src":"forest4.jpg",
       "converted_mana_cost":0,
-      "is_creature":false
+      "is_creature":false,
+      "play_value":1
     }
   ]
 }

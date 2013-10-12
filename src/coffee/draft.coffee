@@ -47,10 +47,8 @@ draft =
     @pick = 1
 
   pickFromOtherPacks: ->
-    ###
-    ISSUE: Bug in here somewhere.
-    ###
     # Simulates other players in the draft.
+    # Currently very stupid and simply picks the card with highest value on property 'play_value'.
     roundPacks = draft.packs[draft.round - 1]    
     curPackIndex = draft.pack - 1
 
@@ -58,4 +56,6 @@ draft =
     for pack, index in roundPacks
       # Make sure we skip the pack the user picked from.
       if index isnt curPackIndex
-        pack.remove pack.models[0]
+        bestCard = _.max pack.models, (card) -> card.get 'play_value'
+        pack.remove bestCard
+    return
