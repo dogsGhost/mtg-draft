@@ -125,14 +125,14 @@
       $('#boosterPack').append cardView.render().el
 
     renderNext: (card) ->
-      if draft.pick isnt 15
-        # Update draft data and render next booster pack.
-        @renderChildViews()
-        # Render new drafted card.
-        cardView = new draft.CardView model: card
-        @$dcl.append cardView.render().el
-      else
-        # If its the last pick in the round we want to render the between-round view instead.
-        new draft.PostRoundView()
+      # If its the last pick in the round we want to render the between-round view instead.
+      if draft.draftedCards.length is 15
+        console.log 'that was the last pick'
+        return new draft.PostRoundView()
+      # if its not the last card update draft data and render next booster pack.
+      @renderChildViews()
+      # Render new drafted card.
+      cardView = new draft.CardView model: card
+      @$dcl.append cardView.render().el
 
 ) jQuery
