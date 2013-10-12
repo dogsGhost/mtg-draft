@@ -47,6 +47,9 @@ draft =
     @pick = 1
 
   pickFromOtherPacks: ->
+    ###
+    ISSUE: Bug in here somewhere.
+    ###
     # Simulates other players in the draft.
     roundPacks = draft.packs[draft.round - 1]    
     curPackIndex = draft.pack - 1
@@ -55,39 +58,4 @@ draft =
     for pack, index in roundPacks
       # Make sure we skip the pack the user picked from.
       if index isnt curPackIndex
-        ran = magic.getRandomInt 1, 100
-        m = pack.where rarity: 'M'
-        r = pack.where rarity: 'R'
-        u = pack.where rarity: 'U'
-        c = pack.where rarity: 'C'
-        l = pack.where rarity: 'L'
-        # Chance to skip rare in first 3 picks, otherwise pick the rare.
-        if (draft.pick < 4 and ran < 89 and (m.length or r.length)) or
-        (draft.pick >= 4 and (m.length or r.length))
-          # In case there's more than one in the pack, randomly pick one then remove it.
-          if m.length
-            ran = magic.getRandomInt 0, m.length - 1
-            pack.remove pack.get m[ran]
-          else
-            ran = magic.getRandomInt 0, r.length - 1
-            pack.remove pack.get r[ran]
-        
-        # If not picking rare, move on to uncommons.
-        # 50% chance to pick uncommon if there are any or if its late in the round force pick.
-        else if (ran < 51 and u.length) or (draft.pick > 8 and u.length)
-          ran = magic.getRandomInt 1, 100
-          ran = magic.getRandomInt 0, u.length - 1
-          pack.remove pack.get u[ran]
-
-        # If not picking uncommon, move on the commons.
-        else if c.length
-          ran = magic.getRandomInt 0, c.length - 1
-          pack.remove pack.get c[ran]
-        
-        # If nothing else, pick a land.
-        else if l.length
-          ran = magic.getRandomInt 0, l.length - 1
-          pack.remove pack.get l[ran]
-        
-        # Do something when there are no more cards to pick.
-    return 
+        pack.remove pack.models[0]
