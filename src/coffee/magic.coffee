@@ -67,7 +67,6 @@ magic.addRare = ->
 magic.pickFoil = ->
   # Pick a number 1 to 100.
   ran = _.sample _.shuffle _.range 1, 100
-  console.log ran
 
   # Determine rarity of foil.
   #default to land
