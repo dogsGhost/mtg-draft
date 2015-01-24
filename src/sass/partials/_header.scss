@@ -17,11 +17,6 @@
       display: inline-block;
       padding-right: 8px;
       color: $beige;
-
-      &:hover {
-        text-decoration: none;
-        box-shadow: 0 0 1px 1px rgba($beige, .5);
-      }
     }
   }
 }

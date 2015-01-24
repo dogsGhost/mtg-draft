@@ -18,8 +18,8 @@
     color: $cream;
 
     @include mq($small-screen) {
-      margin: 0 .5em 0 0;
-      border-radius: 4px 4px 0 0;
+      margin: 0 2px 0 0;
+      border-radius: .5em .5em 0 0;
     }
 
     &:hover {

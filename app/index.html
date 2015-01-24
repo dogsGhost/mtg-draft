@@ -11,7 +11,7 @@
 <body>
   <div class="page-container">
     <header class="page-header">
-      <h1><a href="/"><span>Magic</span> Draft Simulator</a></h1>
+      <h1><a href="index.html"><span>Magic</span> Draft Simulator</a></h1>
     </header>
     <div id="mainContent" class="main-content">
 
@@ -27,10 +27,14 @@
           <label for="radio2">No </label><input value="0" name="timer" id="radio2" type="radio">
         </div>
       </div>
-    
+      <div>
+        <h3>How Does a Draft Work?</h3>
+        <p>In the format used here, 15 packs of cards, each containing 15 cards, are used per round.</p>
+      </div>
+
     </div><!--/ #mainContent -->
     <footer class="page-footer">
-      <small>Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. © 2013 <a href="http://company.wizards.com/">Wizards</a>. All Rights Reserved. This site is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC.</small>
+      <small>Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. Card images are all copyright Wizards of the Coast. &copy; 2015 <a href="http://company.wizards.com/">Wizards</a>. All Rights Reserved. This site is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC.</small>
     </footer>
   </div> <!--/ .page-container -->
 
@@ -82,7 +86,7 @@
   </script>
 
   <script type="text/template" id="draftedInfoTemplate">
-    <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> | 
+    <span class="card-total"><%= drafted_total %></span> <%= drafted_total === 1 ? 'card' : 'cards' %> |
     <span class="creature-total"><%= creature_count %></span> <%= creature_count === 1 ? 'creature' : 'creatures' %>
   </script>
 
@@ -92,7 +96,7 @@
     <div id="cardCollection" class="card-collection">
     </div>
   </script>
-  
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>

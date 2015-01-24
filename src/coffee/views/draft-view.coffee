@@ -126,9 +126,10 @@
 
     renderNext: (card) ->
       # If its the last pick in the round we want to render the between-round view instead.
-      if draft.draftedCards.length is 15
-        console.log 'that was the last pick'
-        return new draft.PostRoundView()
+      #if draft.draftedCards.length is 15
+       # console.log 'that was the last pick'
+        #return new draft.PostRoundView()
+
       # if its not the last card update draft data and render next booster pack.
       @renderChildViews()
       # Render new drafted card.
