@@ -1,13 +1,21 @@
 {
   "name": "mtg-draft",
-  "title": "",
-  "author": "David Wilhelm",
-  "version": "0.0.2",
-  "license": "WTFPL",
+  "version": "1.0.0",
+  "description": "simulate an 8 man draft for MTG",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dogsGhost/mtg-draft"
   },
+  "author": "David Wilhelm <davwilh@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/dogsGhost/mtg-draft/issues"
+  },
+  "homepage": "http://dogsghost.github.io/mtg-draft/",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
